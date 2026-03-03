@@ -1,0 +1,58 @@
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  max-width: 1200px;
+  margin: 20px auto;
+  gap: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.produtoCard {
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 320px;
+  margin: auto;
+}
+
+.produtoCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.produtoCard img {
+  width: 100%;
+  height: auto;
+  max-width: 240px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  transition: opacity 0.3s ease;
+}
+
+.button{
+    background-color: #f39c12;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+}

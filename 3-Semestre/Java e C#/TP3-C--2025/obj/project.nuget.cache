@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DASTRgD0cnw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\guilh\\source\\repos\\TP3-C#-2025\\TP3-C#-2025.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guilh\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.200\\microsoft.net.sdk.compilers.toolset.9.0.200.nupkg.sha512"
+  ],
+  "logs": []
+}

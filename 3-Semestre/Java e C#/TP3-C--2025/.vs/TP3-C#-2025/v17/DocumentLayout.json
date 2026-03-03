@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\guilh\\source\\repos\\TP3-C#-2025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA7489B-71A9-4079-9D28-74558A7CF0D4}|TP3-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp3-c#-2025\\tp3\\questao01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA7489B-71A9-4079-9D28-74558A7CF0D4}|TP3-C#-2025.csproj|solutionrelative:tp3\\questao01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA7489B-71A9-4079-9D28-74558A7CF0D4}|TP3-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp3-c#-2025\\areavolume\\calculogeral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA7489B-71A9-4079-9D28-74558A7CF0D4}|TP3-C#-2025.csproj|solutionrelative:areavolume\\calculogeral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA7489B-71A9-4079-9D28-74558A7CF0D4}|TP3-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp3-c#-2025\\areavolume\\circulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA7489B-71A9-4079-9D28-74558A7CF0D4}|TP3-C#-2025.csproj|solutionrelative:areavolume\\circulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA7489B-71A9-4079-9D28-74558A7CF0D4}|TP3-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp3-c#-2025\\matriculafaculdade\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA7489B-71A9-4079-9D28-74558A7CF0D4}|TP3-C#-2025.csproj|solutionrelative:matriculafaculdade\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA7489B-71A9-4079-9D28-74558A7CF0D4}|TP3-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp3-c#-2025\\vendashow\\ingresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA7489B-71A9-4079-9D28-74558A7CF0D4}|TP3-C#-2025.csproj|solutionrelative:vendashow\\ingresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA7489B-71A9-4079-9D28-74558A7CF0D4}|TP3-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp3-c#-2025\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAA7489B-71A9-4079-9D28-74558A7CF0D4}|TP3-C#-2025.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAA7489B-71A9-4079-9D28-74558A7CF0D4}|TP3-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp3-c#-2025\\tp3-c#-2025.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DAA7489B-71A9-4079-9D28-74558A7CF0D4}|TP3-C#-2025.csproj|solutionrelative:tp3-c#-2025.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 215,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Circulo.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP3-C#-2025\\AreaVolume\\Circulo.cs",
+              "RelativeDocumentMoniker": "AreaVolume\\Circulo.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP3-C#-2025\\AreaVolume\\Circulo.cs",
+              "RelativeToolTip": "AreaVolume\\Circulo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T18:00:58.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalculoGeral.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP3-C#-2025\\AreaVolume\\CalculoGeral.cs",
+              "RelativeDocumentMoniker": "AreaVolume\\CalculoGeral.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP3-C#-2025\\AreaVolume\\CalculoGeral.cs",
+              "RelativeToolTip": "AreaVolume\\CalculoGeral.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T18:00:28.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Matricula.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP3-C#-2025\\MatriculaFaculdade\\Matricula.cs",
+              "RelativeDocumentMoniker": "MatriculaFaculdade\\Matricula.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP3-C#-2025\\MatriculaFaculdade\\Matricula.cs",
+              "RelativeToolTip": "MatriculaFaculdade\\Matricula.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:46:08.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ingresso.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP3-C#-2025\\VendaShow\\Ingresso.cs",
+              "RelativeDocumentMoniker": "VendaShow\\Ingresso.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP3-C#-2025\\VendaShow\\Ingresso.cs",
+              "RelativeToolTip": "VendaShow\\Ingresso.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwD8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:20:01.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TP3-C#-2025",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP3-C#-2025\\TP3-C#-2025.csproj",
+              "RelativeDocumentMoniker": "TP3-C#-2025.csproj",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP3-C#-2025\\TP3-C#-2025.csproj",
+              "RelativeToolTip": "TP3-C#-2025.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-14T17:18:23.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Questao01.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP3-C#-2025\\TP3\\Questao01.cs",
+              "RelativeDocumentMoniker": "TP3\\Questao01.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP3-C#-2025\\TP3\\Questao01.cs",
+              "RelativeToolTip": "TP3\\Questao01.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T16:11:59.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP3-C#-2025\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP3-C#-2025\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T16:10:48.128Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

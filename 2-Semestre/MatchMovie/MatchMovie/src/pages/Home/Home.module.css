@@ -1,0 +1,19 @@
+.home_content h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+   
+    color: var(--cor-terciaria);
+}
+
+.home_content p {
+    text-align: center;
+    
+    font-size: 1rem;
+    padding: 10px;
+    color: var(--cor-terciaria);
+}
+
+.home_content {
+    padding: 50px;
+}

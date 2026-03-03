@@ -1,0 +1,43 @@
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.opcoes button {
+    margin: 0.5rem;
+    padding: 0.7rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.selecionada {
+    background-color: rgb(4, 159, 211);
+}
+
+@media (orientation: landscape) {
+    .quiz-container {
+        flex-direction: column;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #f0f0f0;
+    }
+
+    .selecionada {
+        background-color: #4caf50;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #f0f0f0;
+        color:#121212 ;
+    }
+}

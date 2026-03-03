@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TP3-C#-2025/1.0.0": {
+        "runtime": {
+          "TP3-C#-2025.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TP3-C#-2025/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

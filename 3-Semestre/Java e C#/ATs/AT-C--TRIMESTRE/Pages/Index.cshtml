@@ -1,0 +1,158 @@
+﻿@page
+@model IndexModel
+@using AgenciaViagem.Models
+@{
+    ViewData["Title"] = "Home - Agência de Turismo";
+}
+
+<section class="home-section">
+    <h1 class="display-4">Bem-vindo!</h1>
+    <p class="descricao">
+        Descubra destinos incríveis!
+    </p>
+    <p>
+        Saiba mais sobre como <a class="link-docs" href="https://learn.microsoft.com/aspnet/core" target="_blank">construímos esta aplicação com ASP.NET Core</a>.
+    </p>
+</section>
+
+<section class="pacotes-section">
+    <h2>Pacotes Turísticos Disponíveis</h2>
+    @if (Model.Pacotes.Any())
+    {
+    <div class="pacotes-grid">
+        @foreach (var pacote in Model.Pacotes)
+            {
+        <div class="pacote-card">
+            <h3>@pacote.TituloPacote</h3>
+            <p><strong>Descrição:</strong> @pacote.DescricaoCompleta</p>
+            <p><strong>Data de Partida:</strong> @pacote.DataPartida.ToString("dd/MM/yyyy")</p>
+            <p><strong>Data de Retorno:</strong> @pacote.DataRetorno.ToString("dd/MM/yyyy")</p>
+            <p><strong>Preço por Pessoa:</strong> @pacote.ValorPorPessoa.ToString("C")</p>
+            <p><strong>Vagas Disponíveis:</strong> @pacote.ObterVagasDisponiveis()</p>
+            <p><strong>Destinos Incluídos:</strong></p>
+            <ul>
+                @foreach (var destino in pacote.DestinosIncluidos)
+                        {
+                <li>@destino.NomeCidade (@destino.PaisLocalizacao?.NomePais)</li>
+                        }
+            </ul>
+            @if (User.Identity?.IsAuthenticated == true)
+                    {
+            <a asp-page="/Reservas/Index" class="btn btn-primary">Fazer Reserva</a>
+                    }
+                    else
+                    {
+            <a asp-page="/Login" class="btn btn-primary">Faça Login para Reservar</a>
+                    }
+        </div>
+            }
+    </div>
+    }
+    else
+    {
+    <p>Nenhum pacote turístico disponível no momento.</p>
+    }
+</section>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f8ff;
+        margin: 20px;
+    }
+
+    .home-section {
+        text-align: center;
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 40px 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        margin-bottom: 40px;
+    }
+
+    .display-4 {
+        font-size: 32px;
+        color: #007bff;
+        margin-bottom: 20px;
+    }
+
+    .descricao {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 15px;
+    }
+
+    .link-docs {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s, text-decoration 0.3s;
+    }
+
+        .link-docs:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+    .pacotes-section {
+        margin-top: 40px;
+        padding: 20px;
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+        .pacotes-section h2 {
+            font-size: 24px;
+            color: #007bff;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+    .pacotes-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .pacote-card {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+        .pacote-card h3 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .pacote-card p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .pacote-card ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        .pacote-card .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+            .pacote-card .btn:hover {
+                background-color: #0056b3;
+            }
+</style>

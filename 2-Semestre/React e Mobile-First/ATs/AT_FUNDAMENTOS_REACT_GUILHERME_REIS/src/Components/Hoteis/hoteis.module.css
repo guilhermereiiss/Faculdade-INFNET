@@ -1,0 +1,264 @@
+.Modal_Btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0F78C1;
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+    width: 50px;
+    font-size: 1rem;
+    z-index: 1000;
+}
+
+.formularioContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #d4d4d4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formularioContainer form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ordenacaoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ordenacaoLabel {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.ordenacaoSelect {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.organizaContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imagem_form input {
+    background-color: rgb(219, 219, 219);
+    color: rgb(173, 173, 173);
+}
+
+.formularioContainer label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formularioContainer input,
+.formularioContainer textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.formularioContainer textarea {
+    resize: vertical;
+}
+
+.formularioContainer input[type="text"] {
+    padding: 5px;
+    background-color: #fff;
+    border: none;
+}
+
+.Horizontal_form {
+    display: flex;
+    gap: 10px;
+}
+
+.Horizontal_form div {
+    flex: 1;
+}
+
+.Vertical_Form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formularioContainer button {
+    padding: 10px 15px;
+    background-color: #0F78C1;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formularioContainer button:hover {
+    background-color: #085A8A;
+}
+
+.formularioContainer span {
+    color: red;
+    font-size: 0.9rem;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 3px 25px 0px rgba(0, 0, 0, 0.73);
+    -moz-box-shadow: 5px 3px 25px 0px rgba(0, 0, 0, 0.73);
+    box-shadow: 5px 3px 25px 0px rgba(0, 0, 0, 0.73);
+    background-color: var (--cor-fundo-card);
+    max-width: 350px;
+    margin: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.cardImagem {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cardDetalhes {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.cardDetalhes p {
+    color: var(--cor-texto-p)
+}
+
+h3 {
+    font-size: 1.6rem;
+    color: var(--cor-texto);
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    color: var(--cor-texto-p);
+    margin-bottom: 5px;
+}
+
+.ordenacaoContainer label {
+    color: var(--cor-texto);
+}
+
+.organiza_btn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 40%;
+}
+
+.btn_remover {
+    background-color: #F40B0B;
+    color: #fff;
+}
+
+.btn_remover:hover {
+    background-color: #c0392b;
+}
+
+.btn_editar {
+    background-color: #F1AE29;
+    color: #fff;
+}
+
+.btn_editar:hover {
+    background-color: #e67e22;
+}
+
+.btn_favoritar {
+    background-color: #5A9E19;
+    color: #fff;
+}
+
+.btn_favoritar:hover {
+    background-color: #2ecc71;
+}
+
+@media (max-width: 768px) {
+    .Horizontal_form {
+        flex-direction: column;
+    }
+
+    .formularioContainer {
+        padding: 10px;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .cardImagem {
+        height: 150px;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+
+    .organizaContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .barraPesquisa {
+        display: flex;
+        justify-content: center;
+    }
+}

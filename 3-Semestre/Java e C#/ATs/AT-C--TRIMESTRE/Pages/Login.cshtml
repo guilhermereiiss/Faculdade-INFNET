@@ -1,0 +1,89 @@
+@page
+@model AgenciaViagem.Pages.LoginModel
+
+<section class="login-section">
+    <h1>Entrar no Sistema</h1>
+    <form method="post" class="login-form">
+        <div class="form-group">
+            <label for="usuario">Usuário:</label>
+            <input type="text" id="usuario" name="usuario" />
+        </div>
+        <div class="form-group">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" />
+        </div>
+        <button type="submit" class="btn-entrar">Entrar</button>
+
+        @if (!ModelState.IsValid)
+        {
+        <p class="mensagem-erro">Usuário ou senha inválidos.</p>
+        }
+    </form>
+</section>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        margin: 20px;
+    }
+
+    .login-section {
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 30px 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 8px 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .btn-entrar {
+        width: 100%;
+        background-color: #007bff;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .btn-entrar:hover {
+        background-color: #0056b3;
+    }
+
+    .mensagem-erro {
+        color: #dc3545;
+        font-size: 14px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+
+</style>

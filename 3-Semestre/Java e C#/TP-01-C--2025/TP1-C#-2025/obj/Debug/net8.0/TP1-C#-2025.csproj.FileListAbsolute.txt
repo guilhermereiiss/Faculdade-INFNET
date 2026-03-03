@@ -1,0 +1,14 @@
+C:\Users\guilh\source\repos\TP1-C#-2025\TP1-C#-2025\bin\Debug\net8.0\TP1-C#-2025.exe
+C:\Users\guilh\source\repos\TP1-C#-2025\TP1-C#-2025\bin\Debug\net8.0\TP1-C#-2025.deps.json
+C:\Users\guilh\source\repos\TP1-C#-2025\TP1-C#-2025\bin\Debug\net8.0\TP1-C#-2025.runtimeconfig.json
+C:\Users\guilh\source\repos\TP1-C#-2025\TP1-C#-2025\bin\Debug\net8.0\TP1-C#-2025.dll
+C:\Users\guilh\source\repos\TP1-C#-2025\TP1-C#-2025\bin\Debug\net8.0\TP1-C#-2025.pdb
+C:\Users\guilh\source\repos\TP1-C#-2025\TP1-C#-2025\obj\Debug\net8.0\TP1-C#-2025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilh\source\repos\TP1-C#-2025\TP1-C#-2025\obj\Debug\net8.0\TP1-C#-2025.AssemblyInfoInputs.cache
+C:\Users\guilh\source\repos\TP1-C#-2025\TP1-C#-2025\obj\Debug\net8.0\TP1-C#-2025.AssemblyInfo.cs
+C:\Users\guilh\source\repos\TP1-C#-2025\TP1-C#-2025\obj\Debug\net8.0\TP1-C#-2025.csproj.CoreCompileInputs.cache
+C:\Users\guilh\source\repos\TP1-C#-2025\TP1-C#-2025\obj\Debug\net8.0\TP1-C#-2025.dll
+C:\Users\guilh\source\repos\TP1-C#-2025\TP1-C#-2025\obj\Debug\net8.0\refint\TP1-C#-2025.dll
+C:\Users\guilh\source\repos\TP1-C#-2025\TP1-C#-2025\obj\Debug\net8.0\TP1-C#-2025.pdb
+C:\Users\guilh\source\repos\TP1-C#-2025\TP1-C#-2025\obj\Debug\net8.0\TP1-C#-2025.genruntimeconfig.cache
+C:\Users\guilh\source\repos\TP1-C#-2025\TP1-C#-2025\obj\Debug\net8.0\ref\TP1-C#-2025.dll

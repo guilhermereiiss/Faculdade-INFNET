@@ -1,0 +1,230 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp2-c#-2025\\tp2\\questao2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|solutionrelative:tp2\\questao2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp2-c#-2025\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp2-c#-2025\\tp2\\questao12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|solutionrelative:tp2\\questao12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp2-c#-2025\\tp2\\questao11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|solutionrelative:tp2\\questao11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp2-c#-2025\\tp2\\questao10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|solutionrelative:tp2\\questao10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp2-c#-2025\\tp2\\questao9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|solutionrelative:tp2\\questao9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp2-c#-2025\\tp2\\questao8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|solutionrelative:tp2\\questao8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp2-c#-2025\\tp2\\questao6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|solutionrelative:tp2\\questao6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp2-c#-2025\\tp2\\questao7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|solutionrelative:tp2\\questao7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp2-c#-2025\\tp2\\questao5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|solutionrelative:tp2\\questao5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp2-c#-2025\\tp2\\questao4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|solutionrelative:tp2\\questao4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp2-c#-2025\\tp2\\questao3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|solutionrelative:tp2\\questao3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|c:\\users\\guilh\\source\\repos\\tp2-c#-2025\\tp2\\questao1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B55C5622-4B09-4954-B0C1-056FC07C80D6}|TP2-C#-2025.csproj|solutionrelative:tp2\\questao1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 215,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Questao11.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao11.cs",
+              "RelativeDocumentMoniker": "TP2\\Questao11.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao11.cs",
+              "RelativeToolTip": "TP2\\Questao11.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:49:10.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Questao10.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao10.cs",
+              "RelativeDocumentMoniker": "TP2\\Questao10.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao10.cs",
+              "RelativeToolTip": "TP2\\Questao10.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:30:33.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Questao9.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao9.cs",
+              "RelativeDocumentMoniker": "TP2\\Questao9.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao9.cs",
+              "RelativeToolTip": "TP2\\Questao9.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:25:49.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Questao8.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao8.cs",
+              "RelativeDocumentMoniker": "TP2\\Questao8.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao8.cs",
+              "RelativeToolTip": "TP2\\Questao8.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:20:59.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Questao7.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao7.cs",
+              "RelativeDocumentMoniker": "TP2\\Questao7.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao7.cs",
+              "RelativeToolTip": "TP2\\Questao7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:16:03.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Questao6.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao6.cs",
+              "RelativeDocumentMoniker": "TP2\\Questao6.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao6.cs",
+              "RelativeToolTip": "TP2\\Questao6.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wA0AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:16:53.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Questao5.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao5.cs",
+              "RelativeDocumentMoniker": "TP2\\Questao5.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao5.cs",
+              "RelativeToolTip": "TP2\\Questao5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:10:17.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Questao4.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao4.cs",
+              "RelativeDocumentMoniker": "TP2\\Questao4.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao4.cs",
+              "RelativeToolTip": "TP2\\Questao4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:50:05.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Questao3.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao3.cs",
+              "RelativeDocumentMoniker": "TP2\\Questao3.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao3.cs",
+              "RelativeToolTip": "TP2\\Questao3.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:27:59.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Questao2.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao2.cs",
+              "RelativeDocumentMoniker": "TP2\\Questao2.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao2.cs",
+              "RelativeToolTip": "TP2\\Questao2.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:26:58.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:50:03.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Questao12.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao12.cs",
+              "RelativeDocumentMoniker": "TP2\\Questao12.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao12.cs",
+              "RelativeToolTip": "TP2\\Questao12.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T19:52:06.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Questao1.cs",
+              "DocumentMoniker": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao1.cs",
+              "RelativeDocumentMoniker": "TP2\\Questao1.cs",
+              "ToolTip": "C:\\Users\\guilh\\source\\repos\\TP2-C#-2025\\TP2\\Questao1.cs",
+              "RelativeToolTip": "TP2\\Questao1.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T17:51:50.725Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

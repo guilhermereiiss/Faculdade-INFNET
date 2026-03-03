@@ -1,0 +1,6 @@
+2025-12-02 20:32:27,061 | INFO | SUCESSO | A Cor do Som | Desconhecido | https://pt.wikipedia.org/wiki/A_Cor_do_Som_(álbum)
+2025-12-02 20:32:29,058 | INFO | SUCESSO | Acabou Chorare | Desconhecido | https://pt.wikipedia.org/wiki/Acabou_Chorare
+2025-12-02 20:32:30,960 | INFO | SUCESSO | Chega de Saudade(álbum) | Desconhecido | https://pt.wikipedia.org/wiki/Chega_de_Saudade_(álbum)
+2025-12-02 20:32:32,897 | INFO | SUCESSO | Construção(álbum) | Desconhecido | https://pt.wikipedia.org/wiki/Construção_(álbum)
+2025-12-02 20:32:34,793 | ERROR | FALHA | https://pt.wikipedia.org/wiki/Clube_da_Esquina | value too long for type character varying(100)
+

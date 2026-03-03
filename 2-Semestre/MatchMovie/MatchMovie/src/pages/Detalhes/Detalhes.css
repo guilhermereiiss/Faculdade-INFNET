@@ -1,0 +1,36 @@
+
+
+.detalhes-container {
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.detalhes-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: var(--cor-terciaria);
+}
+
+.detalhes-rating,
+.detalhes-release-date,
+.detalhes-genres,
+.detalhes-description {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.trailer-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.trailer-title {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.trailer-iframe {
+    width: 50%;
+    height: 400px;
+    border: none;
+}

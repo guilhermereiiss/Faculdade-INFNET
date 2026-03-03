@@ -1,0 +1,73 @@
+[
+
+    {
+        "question": "Em 'Naruto', qual é o nome da vila onde Naruto vive?",
+        "options": [
+            "A. Vila da Folha",
+            "B. Vila da Areia",
+            "C. Vila da Névoa",
+            "D. Vila do Som"
+        ],
+        "answer": "A. Vila da Folha"
+    },
+    {
+        "question": "Qual destes animes foi criado por Akira Toriyama?",
+        "options": [
+            "A. One Piece",
+            "B. Dragon Ball",
+            "C. Naruto",
+            "D. Bleach"
+        ],
+        "answer": "B. Dragon Ball"
+    },
+    {
+        "question": "Em 'Attack on Titan', qual é o nome da cidade onde a história começa?",
+        "options": [
+            "A. Wall Maria",
+            "B. Shiganshina",
+            "C. Trost",
+            "D. Marley"
+        ],
+        "answer": "B. Shiganshina"
+    },
+    {
+        "question": "Qual seleção venceu a Copa do Mundo da FIFA em 2018?",
+        "options": [
+            "A. Alemanha",
+            "B. Brasil",
+            "C. França",
+            "D. Argentina"
+        ],
+        "answer": "C. França"
+    },
+    {
+        "question": "Qual jogador é conhecido como 'El Fenômeno' no mundo do futebol?",
+        "options": [
+            "A. Lionel Messi",
+            "B. Ronaldo Nazário",
+            "C. Cristiano Ronaldo",
+            "D. Ronaldinho Gaúcho"
+        ],
+        "answer": "B. Ronaldo Nazário"
+    },
+    {
+        "question": "Qual time é conhecido como 'Rubro-Negro' no Brasil?",
+        "options": [
+            "A. Grêmio",
+            "B. Flamengo",
+            "C. Fluminense",
+            "D. São Paulo"
+        ],
+        "answer": "B. Flamengo"
+    },
+    {
+        "question": "Quem é o maior artilheiro da Seleção Brasileira de Futebol?",
+        "options": [
+            "A. Romário",
+            "B. Pelé",
+            "C. Ronaldo",
+            "D. Neymar"
+        ],
+        "answer": "B. Pelé"
+    }
+]

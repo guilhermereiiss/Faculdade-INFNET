@@ -1,0 +1,8 @@
+.ads {
+    grid-area: ads;
+    background-color: #c0c0c0;
+    color: black;
+    padding: 10px;
+    text-align: center;
+  }
+  

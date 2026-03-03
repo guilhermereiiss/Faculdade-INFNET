@@ -1,0 +1,28 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: var(--cor-fundo);
+}
+
+a  {
+  text-decoration: none;
+}
+
+:root{
+  --cor-primaria: #3498db;
+  --cor-fundo: white;
+  --cor-fundo-card: white;
+  --cor-texto: #333;
+  --cor-texto-p: #555;
+}
+
+html[data-tema="escuro"]{
+  --cor-primaria: #3498db;
+  --cor-fundo: #181818;
+  --cor-fundo-card: #333;
+  --cor-texto: white;
+  --cor-texto-p: white;
+}
+

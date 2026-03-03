@@ -1,0 +1,67 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    padding: 1rem;
+    background-color: white;
+    color: black;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgb(93, 154, 211);
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.item:hover {
+    background-color: #ececec;
+    cursor: pointer;
+}
+
+.detalhesItem {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nome {
+    font-weight: bold;
+}
+
+@media (prefers-color-scheme: dark) {
+    .container {
+        background-color: #333;
+        color: white;
+    }
+
+    .item {
+        background-color: #444;
+    }
+
+    .item:hover {
+        background-color: #555;
+    }
+}
+
+.totalCompra {
+    margin-top: 1rem;
+    text-align: right;
+    font-size: 1.2rem;
+}

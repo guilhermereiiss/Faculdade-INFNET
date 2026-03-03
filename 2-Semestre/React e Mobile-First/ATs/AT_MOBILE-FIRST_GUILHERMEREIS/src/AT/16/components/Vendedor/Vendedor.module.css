@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  background-color: #ffffff;
+
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+  color: #333;
+  font-weight: 600;
+
+  padding-bottom: 8px;
+  width: 100%;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+p span {
+  font-weight: bold;
+  color: #f39c12;
+}
+
+p span.nota {
+  background-color: #f39c12;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 600px;
+    padding: 32px;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}

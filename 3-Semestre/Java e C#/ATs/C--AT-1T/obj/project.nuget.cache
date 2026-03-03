@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6MvXpGtVZD4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\guilh\\source\\repos\\AT-C#\\AT-C#.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guilh\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.200\\microsoft.net.sdk.compilers.toolset.9.0.200.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,111 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 16px;
+    max-width: 600px;
+    transition: box-shadow 0.3s;
+}
+
+.menu_topo img{
+    border-radius: 50%;
+}
+
+.container:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.titulo {
+    font-size: 1.8rem;
+    margin: 12px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.imagem {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.descricao {
+    font-size: 1rem;
+    text-align: left;
+    margin: 12px 0;
+    color: #666;
+}
+
+.preco {
+    font-size: 1.5rem;
+    margin: 8px 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.nota {
+    font-size: 1rem;
+    margin: 8px 0;
+    color: #cfa600;
+}
+
+.botaoAdicionar {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+}
+
+
+
+.botaoAdicionar:hover {
+    background-color: #e67e22;
+    transform: translateY(-2px);
+}
+
+@media (min-width: 600px) {
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        max-width: 100%;
+        justify-content: space-around;
+    }
+
+    .imagem {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 12px;
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .descricao {
+        font-size: 1.2rem;
+    }
+
+    .preco {
+        font-size: 1.8rem;
+    }
+
+    .nota {
+        font-size: 1.2rem;
+    }
+
+    .botaoAdicionar {
+        font-size: 1.2rem;
+    }
+}

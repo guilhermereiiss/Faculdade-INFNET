@@ -1,0 +1,8 @@
+.mainContent {
+    grid-area: main-content;
+    padding: 10px;
+    text-align: center;
+    background-color: #c0c0c0;
+    color: black;
+    
+}

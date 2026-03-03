@@ -1,0 +1,276 @@
+@page
+@model AgenciaViagem.Pages.Clientes.IndexModel
+
+<h1>Gerenciar Clientes</h1>
+
+<section class="form-section">
+    <h2>Adicionar Novo Cliente</h2>
+    <form method="post" class="cliente-form">
+        <div class="form-group">
+            <label asp-for="NomeCompleto">Nome Completo:</label>
+            <input asp-for="NomeCompleto" />
+        </div>
+        <div class="form-group">
+            <label asp-for="EnderecoEmail">E-mail:</label>
+            <input asp-for="EnderecoEmail" />
+        </div>
+        <div class="form-group">
+            <label asp-for="NumeroTelefone">Telefone:</label>
+            <input asp-for="NumeroTelefone" />
+        </div>
+        <button type="submit" class="btn-adicionar">Adicionar Cliente</button>
+    </form>
+</section>
+
+<section class="lista-section">
+    <h2>Lista de Clientes</h2>
+    <ul class="cliente-lista">
+        @foreach (var item in Model.Clientes)
+        {
+        <li class="cliente-item" data-cliente-id="@item.ClienteId">
+            <strong>@item.NomeCompleto</strong> <br />
+            @item.EnderecoEmail <br />
+            @item.NumeroTelefone
+            <button class="btn-detalhes" onclick="openDetailsModal(@item.ClienteId, '@item.NomeCompleto', '@item.EnderecoEmail', '@item.NumeroTelefone', '@item.DataCadastro.ToString("g")', '@item.StatusAtivo', '@(item.DataExclusao?.ToString("g") ?? "N/A")')">Detalhes</button>
+            <button class="btn-editar" onclick="openEditModal(@item.ClienteId, '@item.NomeCompleto', '@item.EnderecoEmail', '@item.NumeroTelefone')">Editar</button>
+            <button class="btn-excluir" onclick="removeClientFromUI(@item.ClienteId)">Excluir</button>
+        </li>
+        }
+    </ul>
+</section>
+
+
+<div class="modal fade" id="editClientModal" tabindex="-1" aria-labelledby="editClientModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editClientModalLabel">Editar Cliente</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form method="post" asp-page-handler="Update">
+                <div class="modal-body">
+                    <input type="hidden" id="editClienteId" name="ClienteId" />
+                    <div class="form-group">
+                        <label for="editNomeCompleto">Nome Completo:</label>
+                        <input type="text" id="editNomeCompleto" name="NomeCompleto" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="editEnderecoEmail">E-mail:</label>
+                        <input type="email" id="editEnderecoEmail" name="EnderecoEmail" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="editNumeroTelefone">Telefone:</label>
+                        <input type="tel" id="editNumeroTelefone" name="NumeroTelefone" class="form-control" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="submit" class="btn btn-primary">Salvar Altera��es</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="detailsClientModal" tabindex="-1" aria-labelledby="detailsClientModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="detailsClientModalLabel">Detalhes do Cliente</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label><strong>Nome Completo:</strong></label>
+                    <p id="detailsNomeCompleto"></p>
+                </div>
+                <div class="form-group">
+                    <label><strong>E-mail:</strong></label>
+                    <p id="detailsEnderecoEmail"></p>
+                </div>
+                <div class="form-group">
+                    <label><strong>Telefone:</strong></label>
+                    <p id="detailsNumeroTelefone"></p>
+                </div>
+                <div class="form-group">
+                    <label><strong>Data de Cadastro:</strong></label>
+                    <p id="detailsDataCadastro"></p>
+                </div>
+                <div class="form-group">
+                    <label><strong>Status Ativo:</strong></label>
+                    <p id="detailsStatusAtivo"></p>
+                </div>
+                <div class="form-group">
+                    <label><strong>Data de Exclus�o:</strong></label>
+                    <p id="detailsDataExclusao"></p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        function openEditModal(clienteId, nomeCompleto, enderecoEmail, numeroTelefone) {
+            $('#editClienteId').val(clienteId);
+            $('#editNomeCompleto').val(nomeCompleto);
+            $('#editEnderecoEmail').val(enderecoEmail);
+            $('#editNumeroTelefone').val(numeroTelefone);
+            $('#editClientModal').modal('show');
+        }
+
+        function openDetailsModal(clienteId, nomeCompleto, enderecoEmail, numeroTelefone, dataCadastro, statusAtivo, dataExclusao) {
+            $('#detailsNomeCompleto').text(nomeCompleto);
+            $('#detailsEnderecoEmail').text(enderecoEmail);
+            $('#detailsNumeroTelefone').text(numeroTelefone);
+            $('#detailsDataCadastro').text(dataCadastro);
+            $('#detailsStatusAtivo').text(statusAtivo === 'True' ? 'Ativo' : 'Inativo');
+            $('#detailsDataExclusao').text(dataExclusao);
+            $('#detailsClientModal').modal('show');
+        }
+
+        function removeClientFromUI(clienteId) {
+            if (confirm('Tem certeza que deseja excluir este cliente da lista?')) {
+                $(`li[data-cliente-id="${clienteId}"]`).remove();
+
+                $.ajax({
+                    url: '/Clientes/Index?handler=Delete',
+                    type: 'POST',
+                    data: { id: clienteId },
+                    headers: {
+                        'RequestVerificationToken': $('input[name="__RequestVerificationToken"]').val()
+                    },
+                    success: function () {
+                        console.log('Cliente marcado como inativo no backend.');
+                    },
+                    error: function () {
+                        console.error('Erro ao marcar cliente como inativo.');
+                    }
+                });
+            }
+        }
+    </script>
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        margin: 20px;
+    }
+
+    h1, h2 {
+        color: #333;
+    }
+
+    .form-section, .lista-section {
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .cliente-form .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"] {
+        width: 100%;
+        padding: 8px 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .btn-adicionar, .btn-entrar {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .btn-adicionar:hover, .btn-entrar:hover {
+            background-color: #0056b3;
+        }
+
+    .btn-editar {
+        background-color: #ffc107;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        margin-left: 10px;
+    }
+
+        .btn-editar:hover {
+            background-color: #e0a800;
+        }
+
+    .btn-detalhes {
+        background-color: #17a2b8;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        margin-left: 10px;
+    }
+
+        .btn-detalhes:hover {
+            background-color: #138496;
+        }
+
+    .btn-excluir {
+        background-color: #dc3545;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        margin-left: 10px;
+    }
+
+        .btn-excluir:hover {
+            background-color: #c82333;
+        }
+
+    .cliente-lista {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .cliente-item {
+        background-color: #e9ecef;
+        border: 1px solid #ced4da;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+</style>

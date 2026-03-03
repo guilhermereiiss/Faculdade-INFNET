@@ -1,0 +1,94 @@
+.card {
+    margin: 10px;
+    width: 100%;
+    max-width: 600px; 
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagemCard {
+    object-fit: cover;
+}
+
+.conteudoCard {
+    padding: 12px; 
+}
+
+.cabecalhoPost {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.avatarAutor {
+    margin-right: 8px;
+}
+
+.tituloPost {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.dataPost {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.textooPost {
+    margin-top: 4px;
+    font-size: 0.9rem; 
+    color: #333;
+}
+
+.acoesCard {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 8px; 
+}
+
+.botaoAcao {
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.botaoAcao:hover {
+    color: #000;
+}
+
+
+@media (min-width: 481px) {
+    .conteudoCard {
+        padding: 16px;
+    }
+
+    .tituloPost {
+        font-size: 1rem;
+    }
+
+    .textooPost {
+        font-size: 1rem;
+    }
+
+    .acoesCard {
+        padding: 8px 12px;
+    }
+}
+
+@media (min-width: 769px) {
+    .card {
+        max-width: 90%;
+    }
+
+    .cabecalhoPost {
+        margin-bottom: 12px;
+    }
+
+    .tituloPost {
+        font-size: 1.2rem;
+    }
+
+    .acoesCard {
+        justify-content: space-between;
+        padding: 8px 16px;
+    }
+}

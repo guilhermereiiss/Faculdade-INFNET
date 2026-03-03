@@ -1,0 +1,258 @@
+@page
+@model AgenciaViagem.Pages.Reservas.IndexModel
+@using AgenciaViagem.Models
+@{
+    ViewData["Title"] = "Gerenciar Reservas";
+}
+
+<h1>Gerenciar Reservas</h1>
+
+<section class="form-section">
+    <h2>Fazer Nova Reserva</h2>
+    <form method="post" class="reserva-form">
+        <div class="form-group">
+            <label asp-for="Reserva.ClienteId">Cliente:</label>
+            <select asp-for="Reserva.ClienteId" class="form-control">
+                <option value="">Selecione um cliente</option>
+                @foreach (var cliente in Model.Clientes)
+                {
+                <option value="@cliente.ClienteId">@cliente.NomeCompleto</option>
+                }
+            </select>
+            <span asp-validation-for="Reserva.ClienteId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Reserva.PacoteTuristicoId">Pacote Turístico:</label>
+            <select asp-for="Reserva.PacoteTuristicoId" class="form-control" id="pacoteSelect">
+                <option value="">Selecione um pacote</option>
+                @foreach (var pacote in Model.PacotesDisponiveis)
+                {
+                <option value="@pacote.PacoteTuristicoId" data-valor-por-pessoa="@pacote.ValorPorPessoa">@pacote.TituloPacote</option>
+                }
+            </select>
+            <span asp-validation-for="Reserva.PacoteTuristicoId" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Reserva.NumeroPassageiros">Número de Passageiros:</label>
+            <input asp-for="Reserva.NumeroPassageiros" class="form-control" type="number" id="numeroPassageiros" min="1" />
+            <span asp-validation-for="Reserva.NumeroPassageiros" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label>Valor Total:</label>
+            <input id="valorTotal" class="form-control" type="text" readonly />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Reserva.ObservacoesAdicionais">Observações:</label>
+            <textarea asp-for="Reserva.ObservacoesAdicionais" class="form-control"></textarea>
+        </div>
+
+        <button type="submit" class="btn-adicionar">Fazer Reserva</button>
+    </form>
+</section>
+
+<section class="lista-section">
+    <h2>Lista de Reservas</h2>
+    <table class="tabela-reservas">
+        <thead>
+            <tr>
+                <th>Cliente</th>
+                <th>Pacote</th>
+                <th>Data da Reserva</th>
+                <th>Passageiros</th>
+                <th>Valor Total</th>
+                <th>Status</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var reserva in Model.Reservas)
+            {
+            <tr>
+                <td>@(reserva.ClienteReservante?.NomeCompleto ?? "N/A")</td>
+                <td>@(reserva.PacoteEscolhido?.TituloPacote ?? "N/A")</td>
+                <td>@reserva.DataHoraReserva.ToString("g")</td>
+                <td>@reserva.NumeroPassageiros</td>
+                <td>@reserva.ValorTotalReserva.ToString("C")</td>
+                <td>@reserva.StatusReserva</td>
+                <td>
+                    <button class="btn-detalhes" onclick="openCalculationModal(@reserva.NumeroPassageiros, @(reserva.PacoteEscolhido?.ValorPorPessoa ?? 0), (pass, price) => pass * price)">Detalhes</button>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</section>
+
+<div class="modal fade" id="calculationModal" tabindex="-1" aria-labelledby="calculationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="calculationModalLabel">Detalhes do Cálculo da Reserva</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label><strong>Número de Passageiros:</strong></label>
+                    <p id="calcNumeroPassageiros"></p>
+                </div>
+                <div class="form-group">
+                    <label><strong>Valor por Pessoa:</strong></label>
+                    <p id="calcValorPorPessoa"></p>
+                </div>
+                <div class="form-group">
+                    <label><strong>Valor Total:</strong></label>
+                    <p id="calcValorTotal"></p>
+                </div>
+                <div class="form-group">
+                    <label><strong>Cálculo (Lambda):</strong></label>
+                    <p id="calcExpressao"></p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(document).ready(function () {
+
+            const calculateTotal = (pass, price) => pass * price;
+
+            function updateValorTotal() {
+                const numeroPassageiros = parseInt($('#numeroPassageiros').val()) || 0;
+                const valorPorPessoa = parseFloat($('#pacoteSelect option:selected').data('valor-por-pessoa')) || 0;
+                const valorTotal = calculateTotal(numeroPassageiros, valorPorPessoa);
+                $('#valorTotal').val(valorTotal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }));
+            }
+
+            $('#pacoteSelect').change(updateValorTotal);
+            $('#numeroPassageiros').on('input', updateValorTotal);
+
+            var calcData = @Html.Raw(Json.Serialize(TempData["CalculationData"]));
+            if (calcData) {
+                const calculate = (pass, price) => pass * price;
+                $('#calcNumeroPassageiros').text(calcData.numeroPassageiros);
+                $('#calcValorPorPessoa').text(calcData.valorPorPessoa.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }));
+                $('#calcValorTotal').text(calcData.valorTotal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }));
+                $('#calcExpressao').text(`(${calcData.numeroPassageiros} × ${calcData.valorPorPessoa.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })} = ${calcData.valorTotal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}) usando lambda: (pass, price) => pass * price`);
+                $('#calculationModal').modal('show');
+            }
+        });
+
+        function openCalculationModal(numeroPassageiros, valorPorPessoa, calculate) {
+            const valorTotal = calculate(numeroPassageiros, valorPorPessoa);
+            $('#calcNumeroPassageiros').text(numeroPassageiros);
+            $('#calcValorPorPessoa').text(valorPorPessoa.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }));
+            $('#calcValorTotal').text(valorTotal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }));
+            $('#calcExpressao').text(`(${numeroPassageiros} × ${valorPorPessoa.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })} = ${valorTotal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}) usando lambda: (pass, price) => pass * price`);
+            $('#calculationModal').modal('show');
+        }
+    </script>
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        margin: 20px;
+    }
+
+    h1, h2 {
+        color: #333;
+    }
+
+    .form-section, .lista-section {
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .reserva-form .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], input[type="number"], select, textarea {
+        width: 100%;
+        padding: 8px 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input[readonly] {
+        background-color: #e9ecef;
+    }
+
+    .btn-adicionar {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .btn-adicionar:hover {
+            background-color: #0056b3;
+        }
+
+    .btn-detalhes {
+        background-color: #17a2b8;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .btn-detalhes:hover {
+            background-color: #138496;
+        }
+
+    .tabela-reservas {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+    }
+
+        .tabela-reservas th, .tabela-reservas td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .tabela-reservas th {
+            background-color: #f1f1f1;
+        }
+
+        .tabela-reservas tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+    .text-danger {
+        color: red;
+        font-size: 14px;
+    }
+</style>

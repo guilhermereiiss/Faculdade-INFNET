@@ -1,0 +1,45 @@
+.listaContainer {
+    padding: 16px;
+}
+
+.amigoItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.amigoItem:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.nomeAmigo {
+    font-size: 1rem;
+}
+
+.amigosComum {
+    font-size: 0.875rem;
+    color: gray;
+}
+
+@media (min-width: 600px) {
+    .nomeAmigo {
+        font-size: 1.2rem;
+    }
+
+    .amigosComum {
+        font-size: 1rem;
+    }
+
+    .amigoItem {
+        padding: 12px; 
+    }
+}
+
+@media (min-width: 900px) {
+    .amigoItem {
+        padding: 16px; 
+    }
+}

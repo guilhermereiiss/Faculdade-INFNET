@@ -1,0 +1,41 @@
+.container_favoritos h2 {
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 32px;
+    color: var(--cor-texto); 
+    margin-bottom: 30px;
+}
+
+p {
+    color: #666;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 3px 25px 0px rgba(0, 0, 0, 0.73);
+    -moz-box-shadow: 5px 3px 25px 0px rgba(0, 0, 0, 0.73);
+    box-shadow: 5px 3px 25px 0px rgba(0, 0, 0, 0.73);
+    background-color: var(--cor-fundo-card);
+    max-width: 350px;
+    margin: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cardDetalhes h3 {
+    color: var(--cor-texto); 
+}
+
+.container_cards {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_geral {
+    background-color: #0F78C1;
+    color: white;
+    display: flex;
+    padding: 30px 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    justify-content: space-around;
+    align-items: center;
+}
+
+ .container_geral h1 {
+    font-weight: bold;
+}
+
+.amarelo {
+    color: #F1AE29;
+}
+
+.laranja {
+    color: #F35318;
+} 
+
+.mini_header {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mini_header input {
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    border-style: none;
+    padding: 5px;
+}
+
+.mini_header button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+} 
+
+.mini_header button:hover {
+    background-color: #214DA6;
+    transform: scale(1.1);
+}
+
+.mini_header button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #214DA6;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+} 
+
+ .mini_header .menu_btn {
+    display: none;
+} 
+
+.menu_lista ul {
+    display: flex;
+}
+
+.sidebar_ativo {
+    left: 0;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
+
+ .sidebar li {
+    list-style: none;
+    padding: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.sidebar li:hover {
+    background-color: #214DA6;
+    border-radius: 10px;
+    transform: scale(1.05);
+}
+
+.menu_lista {
+    display: flex;
+    gap: 20px; 
+}
+
+@media (max-width: 768px) {
+    .mini_header .menu_btn {
+        display: block;
+    }
+
+    .menu_lista ul {
+        display: flex; 
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 250px;
+        height: 100vh;
+        background-color: #0F78C1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px;
+        transition: left 0.3s ease;
+        z-index: 10;
+    } 
+
+    .sidebar {
+        display: flex; 
+    }
+
+    .sidebar_ativo {
+        left: 0;
+    }
+
+    .sidebar ul {
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 20px;
+    }
+}
+

@@ -1,0 +1,7 @@
+.globalMenu {
+    grid-area: global-menu;
+    padding: 10px;
+    text-align: center;
+    background-color: #c0c0c0;
+    color: black;
+}

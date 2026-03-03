@@ -1,0 +1,62 @@
+.barraApp {
+    background:#1976D2;
+}
+
+.barraFerramentas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.titulo {
+    flex-grow: 1;
+    font-weight: bold;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 0 10px;
+    border-radius: 4px;
+}
+
+.entradaBase {
+    color: inherit;
+}
+
+
+@media (min-width: 481px) {
+    .barraFerramentas {
+        flex-direction: row;
+    }
+
+    .titulo {
+        text-align: left;
+    }
+
+    .pesquisa {
+        width: auto;
+        margin-bottom: 0;
+    }
+
+    .organizaOrdem {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 769px) {
+    .barraFerramentas {
+        padding: 0 16px;
+    }
+
+    .titulo {
+        font-size: 1.5rem;
+    }
+
+    .pesquisa {
+        width: 300px; 
+    }
+}

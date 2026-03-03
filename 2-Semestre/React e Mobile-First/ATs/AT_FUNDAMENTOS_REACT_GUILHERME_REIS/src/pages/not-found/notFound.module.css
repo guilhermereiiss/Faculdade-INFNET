@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f8f9fa; 
+    color: black; 
+}
+
+.container p {
+    color: #333;
+}
+
+.titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.descricao {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.botao_voltar {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.botao_voltar:hover {
+    background-color: #0056b3; 
+}

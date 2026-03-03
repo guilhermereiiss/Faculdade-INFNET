@@ -1,0 +1,154 @@
+@page
+@model AgenciaViagem.Pages.Pacotes.IndexModel
+
+<h1>Gerenciar Pacotes Turísticos</h1>
+
+<section class="form-section">
+    <h2>Adicionar Novo Pacote</h2>
+    <form method="post" class="pacote-form">
+        <div class="form-group">
+            <label asp-for="Pacote.TituloPacote">Cidade:</label>
+            <input asp-for="Pacote.TituloPacote" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Pacote.DescricaoCompleta">Descrição:</label>
+            <textarea asp-for="Pacote.DescricaoCompleta"></textarea>
+        </div>
+        <div class="form-group">
+            <label asp-for="Pacote.DataPartida">Data de Partida:</label>
+            <input asp-for="Pacote.DataPartida" type="date" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Pacote.DataRetorno">Data de Retorno:</label>
+            <input asp-for="Pacote.DataRetorno" type="date" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Pacote.CapacidadeMaximaViajantes">Capacidade Máxima:</label>
+            <input asp-for="Pacote.CapacidadeMaximaViajantes" type="number" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Pacote.ValorPorPessoa">Valor por Pessoa:</label>
+            <input asp-for="Pacote.ValorPorPessoa" type="number" step="0.01" />
+        </div>
+
+        <div class="form-group destinos-checkboxes">
+            <label>Destinos Incluídos:</label>
+            @foreach (var cidade in Model.CidadesDisponiveis)
+            {
+            <div class="checkbox-item">
+                <input type="checkbox" name="SelectedCidadeIds" value="@cidade.CidadeDestinoId" />
+                @cidade.NomeCidade, @cidade.PaisLocalizacao?.NomePais
+            </div>
+            }
+        </div>
+
+        <button type="submit" class="btn-adicionar">Adicionar Pacote</button>
+    </form>
+</section>
+
+<section class="lista-section">
+    <h2>Lista de Pacotes</h2>
+    <ul class="pacote-lista">
+        @foreach (var pacote in Model.Pacotes)
+        {
+        <li class="pacote-item">
+            <strong>@pacote.TituloPacote</strong> - @pacote.DataPartida.ToString("d") - Vagas: @pacote.ObterVagasDisponiveis()
+            @if (pacote.DestinosIncluidos != null && pacote.DestinosIncluidos.Any())
+                {
+            <ul class="destinos-lista">
+                @foreach (var destino in pacote.DestinosIncluidos)
+                        {
+                <li>@destino.NomeCidade</li>
+                        }
+            </ul>
+                }
+        </li>
+        }
+    </ul>
+</section>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        margin: 20px;
+    }
+
+    h1, h2 {
+        color: #333;
+    }
+
+    .form-section, .lista-section {
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .pacote-form .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"], input[type="date"], input[type="number"], textarea {
+        width: 100%;
+        padding: 8px 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        min-height: 80px;
+    }
+
+    .btn-adicionar {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .btn-adicionar:hover {
+        background-color: #0056b3;
+    }
+
+    .destinos-checkboxes .checkbox-item {
+        margin-bottom: 8px;
+    }
+
+    .pacote-lista {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .pacote-item {
+        background-color: #e9ecef;
+        border: 1px solid #ced4da;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    .destinos-lista {
+        margin-top: 8px;
+        padding-left: 20px;
+    }
+
+    .destinos-lista li {
+        list-style-type: disc;
+    }
+
+</style>

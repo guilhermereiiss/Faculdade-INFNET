@@ -1,0 +1,26 @@
+
+
+.feedContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; 
+    padding: 16px; 
+  }
+  
+  .postWrapper {
+    width: 100%; 
+    margin-bottom: 24px; 
+  }
+  
+  @media (min-width: 600px) {
+    .postWrapper {
+      width: 48%; 
+    }
+  }
+  
+  @media (min-width: 960px) {
+    .postWrapper {
+      width: 30%; 
+    }
+  }
+  

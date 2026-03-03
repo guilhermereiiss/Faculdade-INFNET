@@ -1,0 +1,67 @@
+.topicosRelacionados {
+    display: none; 
+    gap: 16px;
+    background-color: #f9f9f9;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 16px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+h4 {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 0.95rem;
+    color: #555;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s ease;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+
+@media (min-width: 768px) {
+    .topicosRelacionados {
+        display: flex; 
+        justify-content: space-between;
+        gap: 20px;
+        padding: 16px;
+    }
+
+    section {
+        flex: 1; 
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    li {
+        font-size: 1rem;
+    }
+}
