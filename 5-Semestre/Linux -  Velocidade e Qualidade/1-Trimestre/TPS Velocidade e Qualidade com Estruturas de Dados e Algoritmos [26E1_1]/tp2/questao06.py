@@ -1,19 +1,20 @@
-def selection_sort(arr):
-    comparacoes = 0
-    trocas = 0
+def ordena_selecao(itens):
+    qtd_comp = 0
+    qtd_troca = 0
 
-    n = len(arr)
+    n = len(itens)
     for i in range(n):
-        min_idx = i
+        menor = i
         for j in range(i+1, n):
-            comparacoes += 1
-            if arr[j] < arr[min_idx]:
-                min_idx = j
-        
-        if min_idx != i:
-            arr[i], arr[min_idx] = arr[min_idx], arr[i]
-            trocas += 1
+            qtd_comp += 1
+            if itens[j] < itens[menor]:
+                menor = j
 
-    return arr, comparacoes, trocas
+        if menor != i:
+            itens[i], itens[menor] = itens[menor], itens[i]
+            qtd_troca += 1
 
-print(selection_sort([5,4,3,2,1]))
+    return itens, qtd_comp, qtd_troca
+
+
+print(ordena_selecao([5,4,3,2,1]))

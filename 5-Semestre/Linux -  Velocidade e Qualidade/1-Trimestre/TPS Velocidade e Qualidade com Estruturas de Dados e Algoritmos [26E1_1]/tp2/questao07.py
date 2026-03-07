@@ -1,23 +1,23 @@
-def insertion_sort(arr):
-    comparacoes = 0
-    deslocamentos = 0
+def ordena_insercao(valores):
+    comp = 0
+    mov = 0
 
-    for i in range(1, len(arr)):
-        chave = arr[i]
+    for i in range(1, len(valores)):
+        atual = valores[i]
         j = i - 1
 
         while j >= 0:
-            comparacoes += 1
-            if arr[j] > chave:
-                arr[j+1] = arr[j]
-                deslocamentos += 1
+            comp += 1
+            if valores[j] > atual:
+                valores[j+1] = valores[j]
+                mov += 1
                 j -= 1
             else:
                 break
 
-        arr[j+1] = chave
+        valores[j+1] = atual
 
-    return arr, comparacoes, deslocamentos
+    return valores, comp, mov
 
-print("Quase ordenado:", insertion_sort([1,2,3,5,4,6]))
-print("Invertido:", insertion_sort([6,5,4,3,2,1]))
+print("Quase certo:", ordena_insercao([1, 3, 2, 4, 5, 6]))
+print("Ao contrário:", ordena_insercao([10, 9, 8, 7, 6, 5, 4]))

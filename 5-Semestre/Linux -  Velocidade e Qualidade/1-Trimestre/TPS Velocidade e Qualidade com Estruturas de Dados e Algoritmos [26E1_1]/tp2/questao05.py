@@ -1,12 +1,13 @@
-def primeiro_nao_repetido(s):
-    freq = {}
-    for ch in s:
-        freq[ch] = freq.get(ch, 0) + 1
+def primeira_letra_unica(texto):
+    contagem = {}
+    for letra in texto:
+        contagem[letra] = contagem.get(letra, 0) + 1
 
-    for ch in s:
-        if freq[ch] == 1:
-            return ch
-
+    for letra in texto:
+        if contagem[letra] == 1:
+            return letra
     return None
 
-print(primeiro_nao_repetido("aabbcddeff"))
+
+print(primeira_letra_unica("stress"))
+print(primeira_letra_unica("aabbccdeeff"))
