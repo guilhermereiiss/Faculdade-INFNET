@@ -1,4 +1,3 @@
-
 import random
 
 def generate_vector(n, pattern="random"):
@@ -34,7 +33,6 @@ def bubble_sort(arr):
                 copies += 3
     return a, comparisons, copies
 
-
 def selection_sort(arr):
     a = arr[:]  
     n = len(a)
@@ -52,7 +50,6 @@ def selection_sort(arr):
             a[i], a[min_idx] = a[min_idx], a[i]
             copies += 3
     return a, comparisons, copies
-
 
 def insertion_sort(arr):
     a = arr[:]  
@@ -76,7 +73,6 @@ def insertion_sort(arr):
         a[j + 1] = key
         copies += 1
     return a, comparisons, copies
-
 
 class Node:
     def __init__(self, val):
@@ -104,15 +100,27 @@ def insert_bst(root, val):
             current = current.right
     return root, comparisons
 
-
-def inorder_traversal(root, result, call_count):
-    call_count[0] += 1
-    if root:
-        inorder_traversal(root.left, result, call_count)
-        result.append(root.val)
-        inorder_traversal(root.right, result, call_count)
-    return call_count[0]
-
+def inorder_traversal(root, result):
+    if not root:
+        return 0
+    
+    stack = []
+    current = root
+    calls = 0
+    
+    while stack or current:
+        calls += 1
+        while current:
+            stack.append(current)
+            current = current.left
+            calls += 1
+        
+        if stack:
+            current = stack.pop()
+            result.append(current.val)   
+            current = current.right
+    
+    return calls
 
 def bst_sort(arr):
     root = None
@@ -123,11 +131,9 @@ def bst_sort(arr):
         total_comparisons += comp
     
     result = []
-    call_count = [0]
-    calls = inorder_traversal(root, result, call_count)
+    calls = inorder_traversal(root, result)
     
     return result, total_comparisons, calls
-
 
 def run_question2():
     sizes = [1000, 10000]
@@ -136,7 +142,7 @@ def run_question2():
         "Bubble": bubble_sort,
         "Selection": selection_sort,
         "Insertion": insertion_sort,
-        "BST+inorder": bst_sort
+        "BST": bst_sort
     }
     
     print(f"{'n':>6} {'Padrao':>15} {'Algoritmo':>12} {'Comp. Chaves':>15} {'Copias':>12}")
