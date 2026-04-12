@@ -18,8 +18,8 @@ int main() {
 
     double fim = omp_get_wtime();
 
-    printf("Valor de PI: %.15f\n", pi);
-    printf("Tempo de execução: %f segundos\n", fim - inicio);
+    printf("Valor de pi: %f\n", pi);
+    printf("Tempo: %f segundos\n", fim - inicio);
 
     return 0;
 }
