@@ -1,0 +1,21 @@
+# Exercício 2 - OSI Aplicado ao Linux
+
+**Aluno:** Guilherme  
+**Hostname:** $(hostname)  
+**Data:** $(date +"%d/%m/%Y %H:%M:%S")  
+**Sistema:** Kali Linux (VirtualBox)
+
+## Tabela OSI × Comandos Linux
+
+| Comando                                       | Camada OSI                          | Justificativa |
+|-----------------------------------------------|-------------------------------------|-------------|
+| `ip link`                                     |                |             |
+| `arp -n`                                      | **Camada 2** (Enlace)               |             |
+| `ip addr`                                     | **Camada 3** (Rede)                 |             |
+| `ping`                                        | **Camada 3** (Rede)                 |             |
+| `ss -tuln`                                    | **Camada 4** (Transporte)           |             |
+| `netstat -tuln`                               | **Camada 4** (Transporte)           |             |
+| `who`                                         | **Camada 7** (Aplicação)            |             |
+| `openssl s_client -connect google.com:443`    | **Camada 6/7** (Apresentação/Aplicação) |             |
+| `wget`                                        | **Camada 7** (Aplicação)            |             |
+
