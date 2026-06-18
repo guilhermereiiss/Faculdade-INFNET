@@ -1,15 +1,22 @@
-# sniffer.py
-# pip install pcapy-ng
-# precisa rodar com sudo / admin
 
 import pcapy
 import struct
+import sys
 
-INTERFACE = 'lo'  # no mac eh 'lo0', no windows usa o nome da interface do Npcap
 PORTA = 8443
 FILTRO = f"tcp port {PORTA}"
 PALAVRAS_CHAVE = ["AUTH_TOKEN", "REBOOT_SERVER"]
 
+def achar_interface_loopback():
+    interfaces = pcapy.findalldevs()
+    for iface in interfaces:
+        if "Loopback" in iface or "loopback" in iface or "NPF_Loopback" in iface:
+            return iface
+    print("interfaces disponiveis:")
+    for i, iface in enumerate(interfaces):
+        print(f"  [{i}] {iface}")
+    idx = int(input("escolhe o numero da interface loopback: "))
+    return interfaces[idx]
 
 def le_ip(pacote):
     if len(pacote) < 20:
@@ -40,11 +47,12 @@ def hex_legivel(dados):
 
 
 def trata_pacote(header, pacote):
-    # pacote de loopback no linux vem com 4 bytes extra antes do IP
-    payload_ip = pacote[4:] if len(pacote) > 4 else pacote
-
-    protocolo, payload_tcp = le_ip(payload_ip)
-    if protocolo != 6:  # so interessa TCP
+    for offset in [0, 4]:
+        payload_ip = pacote[offset:]
+        protocolo, payload_tcp = le_ip(payload_ip)
+        if protocolo == 6:
+            break
+    else:
         return
 
     porta_o, porta_d, payload = le_tcp(payload_tcp)
@@ -70,9 +78,11 @@ def trata_pacote(header, pacote):
         print("[-] Alerta: Padrao 'AUTH_TOKEN' NAO encontrado. Os dados estao devidamente cifrados via TLS.")
 
 
-print(f"[*] Iniciando captura na interface {INTERFACE} (Porta {PORTA})...")
+interface = achar_interface_loopback()
+print(f"[*] usando interface: {interface}")
+print(f"[*] capturando na porta {PORTA}...")
 
-cap = pcapy.open_live(INTERFACE, 65535, True, 1000)
+cap = pcapy.open_live(interface, 65535, True, 1000)
 cap.setfilter(FILTRO)
 
 try:

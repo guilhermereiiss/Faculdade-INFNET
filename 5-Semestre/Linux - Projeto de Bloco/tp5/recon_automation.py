@@ -1,9 +1,3 @@
-# recon_automation.py
-# automatiza dnsrecon + nmap pra fazer o levantamento de superficie de ataque
-# pip install python-nmap   (e dnsrecon instalado no sistema)
-#
-# alvos usados aqui: zonetransfer.me (DNS) e scanme.nmap.org (nmap) - ambos
-# liberados publicamente pra teste, nao usar isso contra dominio de terceiro
 
 import subprocess
 import json
@@ -16,10 +10,24 @@ except ImportError:
     print("falta instalar: pip install python-nmap")
     sys.exit(1)
 
-ALVO_DNS = "zonetransfer.me"
+ALVO_DNS  = "zonetransfer.me"
 ALVO_NMAP = "scanme.nmap.org"
-SAIDA = "relatorio_recon.json"
-WORDLIST = "/usr/share/dnsrecon/namelist.txt"
+SAIDA     = "relatorio_recon.json"
+
+TEMP = os.environ.get("TEMP", "C:\\Windows\\Temp")
+DNS_STD_JSON   = os.path.join(TEMP, "dns_std.json")
+DNS_BRUTE_JSON = os.path.join(TEMP, "dns_brute.json")
+
+def achar_wordlist():
+    possiveis = [
+        os.path.join(os.environ.get("APPDATA", ""), "dnsrecon", "namelist.txt"),
+        r"C:\dnsrecon\namelist.txt",
+        r"C:\Tools\dnsrecon\namelist.txt",
+    ]
+    for p in possiveis:
+        if os.path.exists(p):
+            return p
+    return None
 
 
 def roda_dnsrecon(dominio):
@@ -28,50 +36,61 @@ def roda_dnsrecon(dominio):
 
     try:
         subprocess.run(
-            ["dnsrecon", "-d", dominio, "-t", "std", "--json", "/tmp/dns_std.json"],
+            ["dnsrecon", "-d", dominio, "-t", "std", "--json", DNS_STD_JSON],
             capture_output=True, text=True, timeout=60
         )
-        if os.path.exists("/tmp/dns_std.json"):
-            with open("/tmp/dns_std.json") as f:
+        if os.path.exists(DNS_STD_JSON):
+            with open(DNS_STD_JSON, encoding="utf-8") as f:
                 resultado["registros"] = json.load(f)
 
     except FileNotFoundError:
-        resultado["erro"] = "dnsrecon nao encontrado, tentando fallback com dig"
+        resultado["erro"] = "dnsrecon nao encontrado, tentando fallback com nslookup"
         print(f"  [aviso] {resultado['erro']}")
-        resultado["registros"] = fallback_dig(dominio)
+        resultado["registros"] = fallback_nslookup(dominio)
 
     except subprocess.TimeoutExpired:
         resultado["erro"] = "dnsrecon deu timeout"
 
-    if os.path.exists(WORDLIST):
+    wordlist = achar_wordlist()
+    if wordlist:
         print("  rodando brute force de subdominios...")
         try:
             subprocess.run(
-                ["dnsrecon", "-d", dominio, "-t", "brt", "-D", WORDLIST, "--json", "/tmp/dns_brute.json"],
+                ["dnsrecon", "-d", dominio, "-t", "brt", "-D", wordlist, "--json", DNS_BRUTE_JSON],
                 capture_output=True, text=True, timeout=120
             )
-            if os.path.exists("/tmp/dns_brute.json"):
-                with open("/tmp/dns_brute.json") as f:
+            if os.path.exists(DNS_BRUTE_JSON):
+                with open(DNS_BRUTE_JSON, encoding="utf-8") as f:
                     brutos = json.load(f)
                     resultado["subdominios"] = [r for r in brutos if isinstance(r, dict) and r.get("type") == "A"]
         except Exception as e:
             resultado["subdominios"] = [{"erro": str(e)}]
     else:
-        print(f"  wordlist nao achada em {WORDLIST}, pulando brute force")
+        print("  wordlist nao encontrada, pulando brute force")
 
     return resultado
 
 
-def fallback_dig(dominio):
+def fallback_nslookup(dominio):
     registros = []
-    for tipo in ["A", "MX", "NS", "TXT", "AAAA"]:
+    try:
+        p = subprocess.run(["nslookup", dominio], capture_output=True, text=True, timeout=10)
+        for linha in p.stdout.strip().splitlines():
+            if "Address" in linha and "#" not in linha:
+                ip = linha.split(":")[-1].strip()
+                registros.append({"type": "A", "name": dominio, "address": ip})
+    except Exception:
+        pass
+
+    for tipo in ["MX", "NS"]:
         try:
-            p = subprocess.run(["dig", "+short", dominio, tipo], capture_output=True, text=True, timeout=10)
+            p = subprocess.run(["nslookup", f"-type={tipo}", dominio], capture_output=True, text=True, timeout=10)
             for linha in p.stdout.strip().splitlines():
-                if linha:
+                if "mail exchanger" in linha.lower() or "nameserver" in linha.lower():
                     registros.append({"type": tipo, "name": dominio, "address": linha.strip()})
         except Exception:
             pass
+
     return registros
 
 
@@ -153,7 +172,7 @@ def imprime_relatorio(dns, nm):
 if __name__ == "__main__":
     print("ATENCAO: usar so em alvos autorizados (zonetransfer.me / scanme.nmap.org)")
 
-    resultado_dns = roda_dnsrecon(ALVO_DNS)
+    resultado_dns  = roda_dnsrecon(ALVO_DNS)
     resultado_nmap = roda_nmap(ALVO_NMAP)
 
     imprime_relatorio(resultado_dns, resultado_nmap)

@@ -1,5 +1,3 @@
-# cliente.py
-# rodar depois que o servidor.py ja estiver no ar
 
 import socket
 import ssl

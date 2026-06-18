@@ -1,16 +1,13 @@
-# questao4.py - scanner de rede + deteccao de arp spoofing
-# pip install scapy
-# precisa rodar com sudo
 
-from scapy.all import ARP, Ether, srp, sniff
+from scapy.all import ARP, Ether, srp, sniff, conf
+import sys
 
 REDE = "192.168.1.0/24"
 GATEWAY = "192.168.1.1"
 LIMITE_IPS_POR_MAC = 3
 
-ip_para_mac = {}      # tabela montada no escaneamento inicial
-mac_para_ips = {}     # pra detectar um mac respondendo por varios ips
-
+ip_para_mac = {}
+mac_para_ips = {}
 
 def escanear():
     print(f"[*] escaneando {REDE}...")
@@ -56,17 +53,20 @@ if __name__ == "__main__":
     tabela = escanear()
 
     if not tabela:
-        print("nenhum host respondeu, confere a faixa de rede e as permissoes")
-    else:
-        ip_para_mac = tabela
-        mostra_tabela(tabela)
+        print("nenhum host respondeu")
+        print("dicas: confere se o Npcap esta instalado, se esta rodando como admin")
+        print("       e se a faixa REDE esta correta pra sua rede")
+        sys.exit(1)
 
-        mac_gateway = tabela.get(GATEWAY, "desconhecido")
-        if GATEWAY not in tabela:
-            print(f"aviso: gateway {GATEWAY} nao apareceu no scan")
+    ip_para_mac = tabela
+    mostra_tabela(tabela)
 
-        print("\nmonitorando ARP, ctrl+c pra sair...\n")
-        try:
-            sniff(filter="arp", prn=lambda p: checa_pacote(p, mac_gateway), store=0)
-        except KeyboardInterrupt:
-            print("\nencerrado")
+    mac_gateway = tabela.get(GATEWAY, "desconhecido")
+    if GATEWAY not in tabela:
+        print(f"aviso: gateway {GATEWAY} nao apareceu no scan")
+
+    print("\nmonitorando ARP, ctrl+c pra sair...\n")
+    try:
+        sniff(filter="arp", prn=lambda p: checa_pacote(p, mac_gateway), store=0)
+    except KeyboardInterrupt:
+        print("\nencerrado")

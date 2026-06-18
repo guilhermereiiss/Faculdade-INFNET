@@ -1,5 +1,3 @@
-# Questao 2 - bin packing das VMs nos servidores
-# next-fit e first-fit decreasing, comparando os dois no final
 
 CAPACIDADE_SERVIDOR = 100
 
@@ -29,7 +27,6 @@ def next_fit(vms, capacidade):
 
 
 def first_fit_decreasing(vms, capacidade):
-    # ordena decrescente sem usar sorted/reverse
     vms_ord = list(vms)
     for i in range(len(vms_ord)):
         maior = i

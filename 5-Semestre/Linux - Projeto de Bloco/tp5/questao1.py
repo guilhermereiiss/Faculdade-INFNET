@@ -1,6 +1,3 @@
-# Questao 1 - rede de fibra optica
-# Etapa 1 -> arvore geradora minima (Kruskal) pra achar o menor custo de implantacao
-# Etapa 2 -> Dijkstra pra achar a latencia acumulada da cidade 0 pras outras
 
 NUM_CIDADES = 30
 CONEXOES = [
@@ -23,8 +20,6 @@ CONEXOES = [
     (2, 9, 105, 15), (7, 13, 85, 12), (11, 17, 90, 13), (19, 25, 80, 12), (20, 26, 85, 13)
 ]
 
-
-# union-find pra controlar os ciclos no kruskal
 class UnionFind:
     def __init__(self, n):
         self.pai = list(range(n))
@@ -48,7 +43,6 @@ class UnionFind:
 
 
 def kruskal(n, conexoes):
-    # ordena por custo, sem usar sorted()
     arestas = list(conexoes)
     tam = len(arestas)
     for i in range(tam):
@@ -79,7 +73,6 @@ def dijkstra(n, conexoes, origem):
     visitado = [False] * n
 
     for _ in range(n):
-        # pega o nao visitado com menor distancia (sem heapq)
         u = -1
         menor = float('inf')
         for i in range(n):
