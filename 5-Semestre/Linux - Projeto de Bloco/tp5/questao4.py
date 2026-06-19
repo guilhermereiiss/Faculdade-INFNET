@@ -2,8 +2,8 @@
 from scapy.all import ARP, Ether, srp, sniff, conf
 import sys
 
-REDE = "192.168.1.0/24"
-GATEWAY = "192.168.1.1"
+REDE = "10.0.2.0/24"
+GATEWAY = "10.0.2.2"
 LIMITE_IPS_POR_MAC = 3
 
 ip_para_mac = {}
