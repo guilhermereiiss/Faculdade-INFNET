@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block titulo %}eventos-api{% endblock %}</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', sans-serif; background: #f4f6f9; color: #333; }
+        header { background: #1a73e8; color: white; padding: 1rem 2rem; }
+        header h1 { font-size: 1.4rem; }
+        nav a { color: #cce0ff; text-decoration: none; margin-right: 1rem; font-size: 0.9rem; }
+        nav a:hover { text-decoration: underline; }
+        main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+        footer { text-align: center; padding: 2rem; font-size: 0.8rem; color: #888; margin-top: 3rem; border-top: 1px solid #ddd; }
+        .card { background: white; border-radius: 8px; padding: 1.2rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+        .badge { display: inline-block; background: #e8f0fe; color: #1a73e8; border-radius: 4px; padding: .2rem .6rem; font-size: .78rem; margin-left: .5rem; }
+        a.btn { display: inline-block; margin-top: .8rem; background: #1a73e8; color: white; padding: .4rem .9rem; border-radius: 5px; text-decoration: none; font-size: .85rem; }
+        a.btn:hover { background: #1558b0; }
+        a.voltar { display: inline-block; margin-bottom: 1rem; color: #1a73e8; text-decoration: none; font-size: .9rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>📅 eventos-api</h1>
+    <nav>
+        <a href="/">Status</a>
+        <a href="/eventos/html/lista">Lista de Eventos</a>
+        <a href="/docs">Documentação</a>
+    </nav>
+</header>
+
+<main>
+    {% block conteudo %}{% endblock %}
+</main>
+
+<footer>
+    eventos-api v0.1.0 — Instituto Infnet &middot; Disciplina de Programação Distribuída
+</footer>
+
+</body>
+</html>

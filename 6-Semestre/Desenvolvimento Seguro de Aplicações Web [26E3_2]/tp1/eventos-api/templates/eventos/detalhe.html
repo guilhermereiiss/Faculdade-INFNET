@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block titulo %}{{ evento.nome }} — eventos-api{% endblock %}
+
+{% block conteudo %}
+<a class="voltar" href="/eventos/html/lista">← Voltar para lista</a>
+
+<div class="card">
+    <h2>{{ evento.nome }}</h2>
+    <table style="margin-top:1rem; border-collapse:collapse; width:100%">
+        <tr>
+            <td style="padding:.4rem .8rem .4rem 0; font-weight:600; width:140px">Data</td>
+            <td>{{ evento.data }}</td>
+        </tr>
+        <tr>
+            <td style="padding:.4rem .8rem .4rem 0; font-weight:600">Local</td>
+            <td>{{ evento.local }}</td>
+        </tr>
+        <tr>
+            <td style="padding:.4rem .8rem .4rem 0; font-weight:600">Organizador</td>
+            <td>{{ evento.organizador }}</td>
+        </tr>
+        <tr>
+            <td style="padding:.4rem .8rem .4rem 0; font-weight:600">Descrição</td>
+            <td>{{ evento.descricao or "—" }}</td>
+        </tr>
+        <tr>
+            <td style="padding:.4rem .8rem .4rem 0; font-weight:600">ID</td>
+            <td>{{ evento.id }}</td>
+        </tr>
+    </table>
+</div>
+
+{#
+  Exercício 6 — Demonstração de XSS e auto-escape do Jinja2:
+  Se o campo evento.nome contivesse <script>alert('xss')</script>,
+  o Jinja2 com auto-escape ATIVO (padrão em .html) renderizaria como:
+      &lt;script&gt;alert('xss')&lt;/script&gt;
+  impedindo a execução do script no navegador.
+  Para desativar intencionalmente: {{ evento.nome | safe }}  ← NUNCA fazer com input do usuário
+#}
+{% endblock %}
