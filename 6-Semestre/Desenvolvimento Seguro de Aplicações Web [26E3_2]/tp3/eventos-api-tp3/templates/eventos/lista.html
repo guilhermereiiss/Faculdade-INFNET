@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block titulo %}Lista de Eventos — eventos-api{% endblock %}
+
+{% block conteudo %}
+<h2 style="margin-bottom:1.2rem">Eventos Cadastrados</h2>
+
+{% if eventos %}
+    {% for evento in eventos %}
+    <div class="card">
+        <strong>{{ evento.nome }}</strong>
+        <span class="badge">{{ evento.data }}</span>
+        <p style="margin-top:.5rem; font-size:.9rem; color:#555">
+            📍 {{ evento.local }} &nbsp;|&nbsp; 👤 {{ evento.organizador }}
+        </p>
+        {% if evento.descricao %}
+        <p style="margin-top:.4rem; font-size:.85rem; color:#666">{{ evento.descricao }}</p>
+        {% endif %}
+        <a class="btn" href="/eventos/html/{{ evento.id }}">Ver detalhes</a>
+    </div>
+    {% endfor %}
+{% else %}
+    <p>Nenhum evento cadastrado ainda.</p>
+{% endif %}
+{% endblock %}

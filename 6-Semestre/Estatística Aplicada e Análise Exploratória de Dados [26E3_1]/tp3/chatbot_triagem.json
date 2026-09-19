@@ -1,0 +1,6987 @@
+[
+  {
+    "ticket_id": "TCK-00001",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-00005",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-00007",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-00010",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-00015",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-00016",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-00018",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-00020",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-00025",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-00027",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-00028",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-00029",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-00031",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-00033",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-00034",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-00042",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-00045",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-00050",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-00052",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-00053",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-00062",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-00064",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-00066",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-00068",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-00072",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-00077",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-00078",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-00080",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-00083",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-00085",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-00087",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-00088",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-00092",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-00097",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-00098",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-00099",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-00102",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-00103",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-00107",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-00108",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-00110",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-00113",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-00114",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-00115",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-00117",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-00120",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-00122",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-00127",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-00128",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-00129",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-00131",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-00132",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-00134",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-00135",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-00137",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-00139",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-00140",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-00142",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-00145",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-00148",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-00152",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-00154",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-00155",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.55
+  },
+  {
+    "ticket_id": "TCK-00159",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-00161",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-00165",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-00169",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-00170",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-00172",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-00175",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-00176",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-00177",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-00179",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-00181",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-00183",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-00184",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-00190",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-00192",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-00193",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-00196",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-00204",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-00205",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-00206",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-00211",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-00215",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-00217",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-00220",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-00227",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-00229",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-00233",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-00234",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-00239",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-00240",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-00241",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-00243",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-00244",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-00245",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-00254",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-00258",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-00265",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-00266",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-00269",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-00270",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-00272",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-00280",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-00283",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-00290",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-00294",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-00298",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-00299",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-00300",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-00301",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-00302",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.55
+  },
+  {
+    "ticket_id": "TCK-00307",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-00310",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-00311",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-00312",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-00316",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-00318",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-00322",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-00323",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-00326",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-00328",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-00334",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-00339",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-00343",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-00345",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-00347",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-00349",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-00353",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-00356",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-00359",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-00360",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-00362",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-00363",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-00365",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-00367",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-00368",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-00373",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-00375",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-00377",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-00381",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-00384",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-00389",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-00390",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-00392",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-00393",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-00394",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-00398",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-00400",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-00401",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-00402",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-00405",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-00406",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-00413",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-00416",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-00417",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-00420",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-00423",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.55
+  },
+  {
+    "ticket_id": "TCK-00425",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-00435",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-00436",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-00446",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-00448",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-00449",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-00453",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-00454",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-00455",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-00458",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-00468",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-00473",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-00475",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-00476",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-00477",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-00481",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-00482",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-00483",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-00487",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-00490",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-00491",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-00497",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-00498",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-00500",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-00502",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-00503",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-00504",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-00509",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-00511",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-00512",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-00519",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-00523",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-00525",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-00526",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-00527",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-00528",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-00530",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-00531",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-00533",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-00534",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-00535",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-00537",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-00544",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-00549",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-00552",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-00554",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-00556",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-00557",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-00558",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-00560",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-00566",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-00567",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-00569",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-00570",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-00579",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.55
+  },
+  {
+    "ticket_id": "TCK-00581",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-00582",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-00585",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-00586",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-00587",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-00589",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-00592",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-00593",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-00601",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-00604",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-00605",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-00613",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-00614",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-00618",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-00620",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-00623",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-00626",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-00635",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-00638",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-00643",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-00650",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-00659",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-00661",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-00663",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-00665",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-00675",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-00683",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-00684",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-00688",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-00690",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-00691",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-00693",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-00696",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-00698",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.55
+  },
+  {
+    "ticket_id": "TCK-00699",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.98
+  },
+  {
+    "ticket_id": "TCK-00700",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-00711",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-00713",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-00715",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-00718",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-00719",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-00722",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.98
+  },
+  {
+    "ticket_id": "TCK-00724",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-00729",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-00736",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-00737",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-00740",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-00743",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-00748",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-00752",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-00754",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-00756",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-00761",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-00762",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-00764",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-00767",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-00768",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-00770",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-00771",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-00780",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-00784",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-00788",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-00790",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-00791",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-00798",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-00800",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-00804",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-00806",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-00808",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-00810",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-00811",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-00812",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-00813",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-00818",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-00819",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-00820",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-00821",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-00823",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-00824",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-00829",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-00831",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-00833",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-00834",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-00848",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-00850",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-00852",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-00857",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-00858",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-00861",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-00864",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-00865",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-00870",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-00873",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-00874",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-00875",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-00876",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-00878",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-00882",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-00883",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-00888",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-00895",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-00896",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-00898",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-00900",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-00901",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-00905",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-00906",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-00909",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-00912",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-00917",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-00918",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-00925",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-00928",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-00929",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-00931",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.55
+  },
+  {
+    "ticket_id": "TCK-00932",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-00933",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-00935",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-00938",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-00939",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-00943",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-00945",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-00947",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-00948",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-00949",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-00950",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-00952",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-00960",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-00963",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-00970",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-00971",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-00975",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-00977",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-00987",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-00993",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-00995",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-00998",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-01000",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-01002",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-01003",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-01007",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-01008",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-01009",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-01012",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-01014",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-01017",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-01018",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-01019",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-01024",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-01025",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-01026",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-01029",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-01034",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-01035",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-01040",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-01053",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-01057",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-01058",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-01059",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-01066",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-01067",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-01070",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-01073",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-01074",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-01077",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-01080",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-01082",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-01087",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-01092",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-01096",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-01097",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-01098",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-01101",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-01104",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-01106",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-01109",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-01112",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-01113",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-01117",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-01118",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-01120",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-01121",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-01124",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-01125",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-01134",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-01136",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-01141",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-01142",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-01148",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-01151",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-01153",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-01158",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-01159",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-01165",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-01166",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-01168",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-01171",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-01172",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-01179",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-01180",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-01181",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-01184",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-01188",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-01190",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-01191",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-01192",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-01194",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-01199",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-01200",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-01204",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-01211",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-01222",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-01225",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-01235",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-01236",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-01240",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-01245",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-01246",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-01247",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-01251",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.55
+  },
+  {
+    "ticket_id": "TCK-01255",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-01257",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-01261",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-01262",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-01270",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-01276",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-01277",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-01278",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-01280",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-01287",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-01288",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-01290",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-01294",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-01295",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-01296",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-01301",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-01302",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-01303",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-01306",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-01314",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-01322",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-01327",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-01331",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-01332",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-01336",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-01337",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-01338",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-01344",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-01347",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-01348",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-01349",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.98
+  },
+  {
+    "ticket_id": "TCK-01352",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-01353",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-01354",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-01357",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-01361",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-01368",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-01374",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-01375",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-01376",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-01378",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-01382",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-01383",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-01386",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-01389",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-01391",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-01394",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-01399",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-01401",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-01405",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-01406",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-01412",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-01415",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-01416",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-01422",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-01423",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-01426",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-01430",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-01433",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-01435",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-01444",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-01449",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-01452",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-01453",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-01456",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-01458",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-01461",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-01464",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-01467",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-01469",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-01471",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-01475",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-01478",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-01479",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-01490",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-01492",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-01502",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-01504",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-01509",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-01510",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-01512",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-01513",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-01520",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-01524",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-01533",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-01536",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-01538",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-01542",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-01543",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-01544",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-01545",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-01548",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-01549",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-01550",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-01555",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-01559",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-01567",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-01573",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-01578",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-01580",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-01581",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-01584",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-01585",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.98
+  },
+  {
+    "ticket_id": "TCK-01587",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-01589",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-01590",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-01592",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-01593",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-01595",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-01596",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-01599",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-01600",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-01601",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-01605",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-01606",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-01608",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-01610",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-01612",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-01614",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-01615",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-01619",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.55
+  },
+  {
+    "ticket_id": "TCK-01623",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-01624",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-01626",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-01627",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-01628",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-01636",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-01638",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-01640",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-01642",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-01643",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-01645",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-01647",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-01653",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-01658",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-01660",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-01663",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-01666",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-01669",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-01671",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-01674",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-01675",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-01678",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-01679",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-01684",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-01689",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-01691",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-01693",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-01695",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-01704",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-01705",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-01710",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-01711",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-01712",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-01714",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-01721",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-01727",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-01733",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-01737",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-01738",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-01741",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-01742",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-01743",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-01745",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-01753",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-01754",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-01756",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-01758",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-01763",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-01765",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-01768",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-01770",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-01774",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-01777",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-01778",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-01779",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-01783",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-01786",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-01790",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-01792",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-01795",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-01796",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-01797",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-01799",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-01802",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-01803",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-01804",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-01805",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-01806",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-01807",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-01810",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-01811",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-01813",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-01814",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-01815",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-01816",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-01821",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-01823",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-01827",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-01829",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-01830",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-01831",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-01834",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-01835",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-01838",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-01839",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-01844",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-01845",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-01850",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-01857",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-01858",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-01859",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-01861",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-01863",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-01864",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-01865",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-01868",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-01871",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-01876",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-01877",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-01879",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-01883",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-01885",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.55
+  },
+  {
+    "ticket_id": "TCK-01892",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-01893",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-01896",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-01899",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-01904",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-01905",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-01907",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-01908",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-01913",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-01916",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-01917",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-01918",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-01921",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.55
+  },
+  {
+    "ticket_id": "TCK-01923",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-01925",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-01936",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-01939",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-01941",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-01942",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-01948",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-01950",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.98
+  },
+  {
+    "ticket_id": "TCK-01952",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-01953",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-01956",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-01957",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-01959",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-01963",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-01965",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-01967",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-01969",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-01970",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-01973",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-01977",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-01980",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-01981",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-01982",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-01985",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-01990",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-01992",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-01995",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-01997",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-02001",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-02003",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-02006",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-02007",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-02009",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-02011",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-02012",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-02014",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-02019",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-02032",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-02041",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-02043",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-02045",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-02050",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-02052",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-02058",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-02061",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-02067",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-02076",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-02077",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-02083",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-02087",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-02090",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-02093",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-02094",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-02098",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-02099",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-02101",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-02110",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.55
+  },
+  {
+    "ticket_id": "TCK-02116",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-02123",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-02129",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-02132",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-02133",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-02144",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-02145",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-02146",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-02147",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-02150",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-02152",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-02157",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-02161",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-02162",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-02164",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-02166",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-02167",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-02168",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-02170",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-02177",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-02182",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-02184",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-02186",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-02187",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-02189",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-02190",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-02194",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-02197",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-02199",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-02201",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-02202",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-02203",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-02206",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-02212",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-02214",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-02217",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-02218",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-02223",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-02225",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-02227",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-02229",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-02232",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-02238",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-02240",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-02241",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-02244",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-02249",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-02257",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-02259",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-02264",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-02265",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-02271",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-02273",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-02276",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-02278",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-02279",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-02281",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-02286",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-02287",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-02291",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-02296",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-02298",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-02302",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-02303",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-02305",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-02307",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-02310",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-02315",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-02316",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-02317",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-02318",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-02319",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-02320",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-02325",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-02328",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-02333",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-02334",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-02335",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-02340",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-02344",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-02346",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.55
+  },
+  {
+    "ticket_id": "TCK-02348",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-02349",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-02350",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-02351",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-02353",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-02356",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-02359",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-02360",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-02362",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-02363",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-02369",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-02370",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-02374",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-02380",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-02381",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-02383",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-02384",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-02392",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-02395",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-02396",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-02397",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-02399",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-02404",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-02406",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-02409",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-02412",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-02415",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-02420",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-02422",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-02423",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-02424",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-02429",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-02435",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-02437",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-02440",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-02441",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-02447",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-02448",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-02449",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-02450",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-02453",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-02455",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-02456",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-02457",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-02458",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-02459",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-02460",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-02462",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-02463",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-02465",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-02468",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-02472",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-02474",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-02477",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-02481",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-02482",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-02484",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-02488",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-02492",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-02498",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-02500",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-02503",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-02505",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-02509",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-02510",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-02511",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-02514",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.55
+  },
+  {
+    "ticket_id": "TCK-02516",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-02517",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-02518",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-02529",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-02533",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-02538",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-02539",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-02540",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-02544",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-02548",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-02549",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-02561",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-02566",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-02567",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-02568",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-02569",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-02571",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-02572",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-02573",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-02574",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-02576",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-02578",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-02582",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-02583",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-02585",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-02590",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-02592",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-02605",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-02611",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-02613",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-02627",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-02628",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-02630",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-02631",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-02634",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-02635",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-02638",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-02639",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-02645",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-02651",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-02653",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-02654",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-02655",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-02657",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-02659",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-02666",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-02668",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-02673",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-02675",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-02680",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-02681",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-02683",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-02689",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-02690",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-02691",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-02695",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-02699",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-02700",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-02702",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-02705",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-02706",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-02708",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-02709",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-02714",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-02715",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-02717",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-02719",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-02729",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-02730",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-02732",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-02734",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-02738",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-02739",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-02741",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-02747",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-02748",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-02749",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-02750",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-02753",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-02757",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-02762",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-02764",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-02766",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-02768",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-02772",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-02773",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-02775",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-02778",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-02780",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-02783",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-02785",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-02786",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-02787",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-02788",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-02789",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-02793",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-02794",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-02795",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-02796",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-02797",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-02799",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-02802",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-02803",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-02806",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-02807",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-02810",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-02815",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-02817",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-02821",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-02823",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-02825",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-02826",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-02829",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-02830",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-02831",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-02832",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-02838",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-02841",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-02843",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-02845",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-02853",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-02865",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-02867",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-02869",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-02870",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-02871",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-02872",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-02876",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-02879",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-02882",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-02889",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-02890",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-02891",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-02899",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-02902",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-02903",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-02905",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-02907",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-02911",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-02912",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.98
+  },
+  {
+    "ticket_id": "TCK-02913",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-02914",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-02915",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-02918",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-02920",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-02921",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-02922",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-02924",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-02932",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-02933",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-02934",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-02935",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-02936",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-02938",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-02941",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-02942",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-02943",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-02944",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-02946",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-02947",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-02948",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-02949",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-02951",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-02954",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-02955",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-02956",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-02958",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-02963",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-02966",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-02967",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-02969",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-02970",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-02971",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-02975",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-02979",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-02980",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-02984",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-02986",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-02987",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-02994",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-02995",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-02997",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-03000",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-03001",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-03003",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-03004",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-03006",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-03010",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-03014",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-03020",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-03024",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-03026",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-03027",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-03029",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-03036",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-03038",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-03041",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-03049",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-03059",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-03067",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-03070",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-03071",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-03074",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-03075",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-03076",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-03083",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-03085",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-03086",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-03087",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-03091",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-03092",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-03094",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-03095",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-03097",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-03103",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-03107",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-03108",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-03112",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-03113",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-03114",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-03118",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-03120",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-03128",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-03131",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.98
+  },
+  {
+    "ticket_id": "TCK-03132",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-03136",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-03139",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-03142",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-03143",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-03146",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-03148",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-03149",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-03150",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-03151",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-03152",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-03154",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-03156",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-03161",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-03163",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-03164",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-03167",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-03169",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-03171",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-03172",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-03173",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.55
+  },
+  {
+    "ticket_id": "TCK-03174",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-03183",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-03190",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-03191",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-03193",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-03194",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-03195",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-03199",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-03200",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-03205",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-03207",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-03210",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-03211",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-03212",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-03213",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-03214",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-03217",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-03218",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-03223",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-03225",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-03235",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-03236",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-03238",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-03239",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-03241",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-03243",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-03245",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-03249",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-03250",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-03251",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-03252",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-03254",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-03255",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-03259",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-03263",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-03265",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-03268",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-03275",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-03276",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-03278",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-03279",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-03280",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-03281",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-03287",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-03289",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-03295",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-03297",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-03300",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-03301",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-03302",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-03304",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-03305",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-03306",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-03308",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-03314",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-03319",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-03325",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-03334",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-03337",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-03338",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-03341",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-03346",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-03348",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-03354",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-03355",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-03357",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-03360",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-03361",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-03362",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-03368",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-03373",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-03375",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-03386",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-03387",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-03394",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-03400",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-03401",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-03404",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-03405",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-03408",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-03409",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-03411",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-03412",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-03414",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-03415",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-03419",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-03424",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-03425",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-03429",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-03432",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-03433",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-03443",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-03446",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-03447",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-03449",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-03450",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-03454",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-03456",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-03457",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-03460",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-03461",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-03462",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-03469",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-03470",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.64
+  },
+  {
+    "ticket_id": "TCK-03474",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-03476",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-03477",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-03481",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-03483",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-03484",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-03486",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-03493",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-03496",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-03498",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-03499",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-03501",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-03502",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-03505",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-03506",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-03509",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-03510",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-03511",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-03512",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-03514",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-03515",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-03516",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-03518",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-03523",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-03527",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-03528",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-03537",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-03543",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-03545",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-03547",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-03552",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-03555",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-03568",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-03571",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-03584",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-03585",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-03589",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-03595",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-03598",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-03600",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-03603",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-03604",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-03607",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-03611",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-03612",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-03613",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-03618",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-03619",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-03622",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-03631",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-03632",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-03634",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-03637",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-03639",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-03644",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-03645",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-03650",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-03653",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-03656",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-03657",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.92
+  },
+  {
+    "ticket_id": "TCK-03658",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-03660",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-03663",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-03666",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-03667",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-03669",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-03670",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-03675",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-03676",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-03682",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-03683",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-03687",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-03688",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-03696",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-03700",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-03702",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-03703",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-03704",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-03706",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-03708",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.72
+  },
+  {
+    "ticket_id": "TCK-03710",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-03712",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-03717",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-03719",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-03729",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.67
+  },
+  {
+    "ticket_id": "TCK-03731",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-03737",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-03741",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-03742",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-03745",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-03746",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-03747",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-03748",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-03760",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.86
+  },
+  {
+    "ticket_id": "TCK-03765",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-03767",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-03770",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-03775",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-03780",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-03781",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-03783",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.68
+  },
+  {
+    "ticket_id": "TCK-03787",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-03789",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-03791",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-03792",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-03795",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-03796",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-03804",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-03806",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-03807",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.69
+  },
+  {
+    "ticket_id": "TCK-03812",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.73
+  },
+  {
+    "ticket_id": "TCK-03813",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-03815",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-03817",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.75
+  },
+  {
+    "ticket_id": "TCK-03818",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-03820",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-03821",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-03822",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-03827",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.98
+  },
+  {
+    "ticket_id": "TCK-03832",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.7
+  },
+  {
+    "ticket_id": "TCK-03834",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-03835",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-03838",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-03839",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-03844",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-03847",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.62
+  },
+  {
+    "ticket_id": "TCK-03850",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-03851",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-03853",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-03854",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.87
+  },
+  {
+    "ticket_id": "TCK-03856",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-03860",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.89
+  },
+  {
+    "ticket_id": "TCK-03861",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.63
+  },
+  {
+    "ticket_id": "TCK-03864",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-03865",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.61
+  },
+  {
+    "ticket_id": "TCK-03866",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-03869",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.94
+  },
+  {
+    "ticket_id": "TCK-03870",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-03875",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.56
+  },
+  {
+    "ticket_id": "TCK-03877",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.58
+  },
+  {
+    "ticket_id": "TCK-03878",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-03884",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.76
+  },
+  {
+    "ticket_id": "TCK-03889",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.57
+  },
+  {
+    "ticket_id": "TCK-03890",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.97
+  },
+  {
+    "ticket_id": "TCK-03891",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.65
+  },
+  {
+    "ticket_id": "TCK-03896",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-03897",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.6
+  },
+  {
+    "ticket_id": "TCK-03902",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.88
+  },
+  {
+    "ticket_id": "TCK-03904",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.84
+  },
+  {
+    "ticket_id": "TCK-03907",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-03909",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.85
+  },
+  {
+    "ticket_id": "TCK-03921",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-03924",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.93
+  },
+  {
+    "ticket_id": "TCK-03930",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.78
+  },
+  {
+    "ticket_id": "TCK-03932",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.59
+  },
+  {
+    "ticket_id": "TCK-03935",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-03940",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-03943",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.83
+  },
+  {
+    "ticket_id": "TCK-03944",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.8
+  },
+  {
+    "ticket_id": "TCK-03945",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.82
+  },
+  {
+    "ticket_id": "TCK-03951",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.81
+  },
+  {
+    "ticket_id": "TCK-03952",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.74
+  },
+  {
+    "ticket_id": "TCK-03956",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.9
+  },
+  {
+    "ticket_id": "TCK-03963",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.77
+  },
+  {
+    "ticket_id": "TCK-03964",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.71
+  },
+  {
+    "ticket_id": "TCK-03967",
+    "intencao_triagem": "duvida",
+    "confianca_bot": 0.91
+  },
+  {
+    "ticket_id": "TCK-03971",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.66
+  },
+  {
+    "ticket_id": "TCK-03973",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-03975",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-03985",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.95
+  },
+  {
+    "ticket_id": "TCK-03989",
+    "intencao_triagem": "reclamacao",
+    "confianca_bot": 0.96
+  },
+  {
+    "ticket_id": "TCK-03991",
+    "intencao_triagem": "solicitacao",
+    "confianca_bot": 0.79
+  },
+  {
+    "ticket_id": "TCK-03998",
+    "intencao_triagem": "elogio",
+    "confianca_bot": 0.9
+  }
+]

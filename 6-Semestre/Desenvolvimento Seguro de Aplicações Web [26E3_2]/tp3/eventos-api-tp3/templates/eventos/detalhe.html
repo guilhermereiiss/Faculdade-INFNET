@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block titulo %}{{ evento.nome }} — eventos-api{% endblock %}
+
+{% block conteudo %}
+<a class="voltar" href="/eventos/html/lista">← Voltar para lista</a>
+
+<div class="card">
+    {#
+      Exercício 5 — auto-escape do Jinja2 ativo (padrão em arquivos .html).
+      Se evento.nome contiver <script>alert('xss')</script>, o Jinja2 renderiza:
+          &lt;script&gt;alert('xss')&lt;/script&gt;
+      O script NÃO é executado — aparece como texto literal na página.
+      NUNCA usar {{ evento.nome | safe }} com input do usuário.
+    #}
+    <h2>{{ evento.nome }}</h2>
+    <table style="margin-top:1rem; border-collapse:collapse; width:100%">
+        <tr>
+            <td style="padding:.4rem .8rem .4rem 0; font-weight:600; width:140px">Data</td>
+            <td>{{ evento.data }}</td>
+        </tr>
+        <tr>
+            <td style="padding:.4rem .8rem .4rem 0; font-weight:600">Local</td>
+            <td>{{ evento.local }}</td>
+        </tr>
+        <tr>
+            <td style="padding:.4rem .8rem .4rem 0; font-weight:600">Organizador</td>
+            <td>{{ evento.organizador }}</td>
+        </tr>
+        <tr>
+            <td style="padding:.4rem .8rem .4rem 0; font-weight:600">Descrição</td>
+            <td>{{ evento.descricao or "—" }}</td>
+        </tr>
+    </table>
+</div>
+
+{# Exercício 5 — comentários armazenados e renderizados com auto-escape #}
+<div class="card comentarios">
+    <h3>Comentários</h3>
+    {% if comentarios %}
+        {% for c in comentarios %}
+        <div class="comentario-item">
+            {#
+              AUTO-ESCAPE ATIVO: mesmo que `c` contenha <script>alert(1)</script>,
+              o Jinja2 converte os caracteres especiais em entidades HTML:
+                  < → &lt;    > → &gt;    " → &#34;    & → &amp;
+              Resultado visual: o texto aparece literal, sem execução de JS.
+            #}
+            {{ c }}
+        </div>
+        {% endfor %}
+    {% else %}
+        <p style="color:#888; font-size:.9rem">Nenhum comentário ainda.</p>
+    {% endif %}
+</div>
+{% endblock %}
