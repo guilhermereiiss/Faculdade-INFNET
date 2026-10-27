@@ -1,0 +1,160 @@
+{% extends "base.html" %}
+
+{% block title %}Agenda do Dia — Recepção Segura{% endblock %}
+
+{% block extra_head %}
+<style>
+    .page-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .page-title h1 {
+        font-size: 1.75rem;
+        font-weight: 700;
+        color: var(--text-main);
+    }
+
+    .page-title p {
+        color: var(--text-muted);
+        font-size: 0.95rem;
+        margin-top: 0.25rem;
+    }
+
+    .table-container {
+        overflow-x: auto;
+        border-radius: 8px;
+        border: 1px solid var(--surface-border);
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+    }
+
+    th {
+        background: #131d31;
+        padding: 1rem;
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--text-muted);
+        border-bottom: 1px solid var(--surface-border);
+    }
+
+    td {
+        padding: 1rem;
+        border-bottom: 1px solid var(--surface-border);
+        font-size: 0.95rem;
+    }
+
+    tr:hover td {
+        background-color: rgba(255, 255, 255, 0.02);
+    }
+
+    .status-badge {
+        display: inline-block;
+        padding: 0.25rem 0.65rem;
+        border-radius: 9999px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+
+    .status-agendada {
+        background: rgba(56, 189, 248, 0.15);
+        color: var(--status-agendada);
+        border: 1px solid rgba(56, 189, 248, 0.3);
+    }
+
+    .status-confirmada {
+        background: rgba(16, 185, 129, 0.15);
+        color: var(--status-confirmada);
+        border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+
+    .status-cancelada {
+        background: rgba(244, 63, 94, 0.15);
+        color: var(--status-cancelada);
+        border: 1px solid rgba(244, 63, 94, 0.3);
+    }
+
+    .info-alert {
+        background: rgba(56, 189, 248, 0.1);
+        border: 1px solid rgba(56, 189, 248, 0.25);
+        border-radius: 8px;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+        display: flex;
+        gap: 0.75rem;
+        align-items: center;
+        color: var(--accent-blue);
+        font-size: 0.9rem;
+    }
+
+    .empty-state {
+        text-align: center;
+        padding: 3rem 1rem;
+        color: var(--text-muted);
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <div class="page-title">
+        <h1>Agenda do Dia &bull; Recepção</h1>
+        <p>Visualização segura de horários e pacientes sem exposição de prontuários ou trilhas internas de auditoria.</p>
+    </div>
+</div>
+
+<div class="info-alert">
+    <span>🔒</span>
+    <div>
+        <strong>Controle de Exposição Ativo:</strong> Todos os dados refletidos abaixo passam por escape automático de caracteres (Jinja2 Auto-escape) para mitigar vulnerabilidades de XSS (Cross-Site Scripting). Prontuários e anotações médicas são estritamente restritos aos profissionais de saúde.
+    </div>
+</div>
+
+<div class="card">
+    {% if consultas and consultas|length > 0 %}
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Horário</th>
+                    <th>Paciente</th>
+                    <th>Telefone</th>
+                    <th>Profissional</th>
+                    <th>Especialidade</th>
+                    <th>Motivo da Consulta</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in consultas %}
+                <tr>
+                    <td><strong>{{ item.data_hora }}</strong></td>
+                    <!-- Safe output: Jinja2 escapes any HTML automatically -->
+                    <td>{{ item.paciente_nome }}</td>
+                    <td>{{ item.paciente_telefone }}</td>
+                    <td>{{ item.profissional_nome }}</td>
+                    <td>{{ item.especialidade }}</td>
+                    <td>{{ item.motivo }}</td>
+                    <td>
+                        <span class="status-badge status-{{ item.status|lower }}">{{ item.status }}</span>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <div class="empty-state">
+        <p>Nenhuma consulta encontrada para a data selecionada.</p>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

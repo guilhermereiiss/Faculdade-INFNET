@@ -1,0 +1,95 @@
+name: DevSecOps CI Pipeline & Security Gate
+
+on:
+  push:
+    branches: [ main, master, develop ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  # ── 1. Análise Estática de Segurança (SAST) ──────────────────────────────────
+  sast_bandit:
+    name: SAST - Análise Estática de Código (Bandit)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Instalar Bandit
+        run: |
+          python -m pip install --upgrade pip
+          pip install bandit
+
+      - name: Executar Bandit (Bloqueio em Severidade Média/Alta)
+        # -r: recursivo | -ll: severidade Média ou Alta | -ii: confiança Média ou Alta
+        # -x: ignora pasta de testes e venv
+        run: |
+          bandit -r . -ll -ii -x ./.venv,./tests -f screen
+
+  # ── 2. Análise de Composição de Software (SCA) ───────────────────────────────
+  sca_pip_audit:
+    name: SCA - Análise de Vulnerabilidades em Dependências (Pip-Audit)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Instalar Pip-Audit
+        run: |
+          python -m pip install --upgrade pip
+          pip install pip-audit
+
+      - name: Executar Pip-Audit contra requirements.txt
+        # Falha o build se houver vulnerabilidades conhecidas (CVEs) nas bibliotecas
+        run: |
+          pip-audit -r requirements.txt --desc
+
+  # ── 3. Testes Automatizados de Segurança e Autorização (Pytest) ──────────────
+  security_tests:
+    name: Testes de Segurança, BOLA e Autorização (Pytest)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Instalar Dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Executar Suíte Completa de Testes Defensivos
+        run: |
+          python -m pytest tests -v
+
+  # ── 4. Security Gate Consolidado ─────────────────────────────────────────────
+  security_gate:
+    name: Security Gate de Liberação para Produção
+    needs: [ sast_bandit, sca_pip_audit, security_tests ]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Avaliar Critério de Severidade
+        run: |
+          echo "========================================================"
+          echo "           SECURITY GATE AUDIT REPORT                   "
+          echo "========================================================"
+          echo "✓ SAST Bandit: Sem vulnerabilidades de severidade HIGH/CRITICAL"
+          echo "✓ SCA Pip-Audit: Dependências livres de CVEs conhecidas"
+          echo "✓ Pytest: 100% dos testes de BOLA, Mass Assignment e RBAC aprovados"
+          echo "Critério de Severidade: BLOQUEIO em severidades HIGH ou CRITICAL"
+          echo "STATUS: APROVADO PARA DEPLOY EM HOMOLOGAÇÃO / PRODUÇÃO"
+          echo "========================================================"

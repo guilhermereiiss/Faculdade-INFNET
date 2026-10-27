@@ -1,0 +1,79 @@
+{
+  "scan_metadata": {
+    "tool": "OWASP ZAP Passive Scanner & OpenAPI Security Auditor",
+    "version": "2.14.0-compatible",
+    "target": "http://localhost:8000",
+    "timestamp": "2026-09-19T19:03:49.639777+00:00",
+    "scan_mode": "PASSIVE_SCAN"
+  },
+  "openapi_audit": {
+    "title": "API de Agendamento de Consultas — Clínica Médica Segura",
+    "version": "1.0.0",
+    "total_endpoints": 12,
+    "security_schemes": [
+      "OAuth2PasswordBearer"
+    ],
+    "sensitive_fields_leaked": false,
+    "status": "APPROVED"
+  },
+  "zap_passive_rules_evaluated": [
+    {
+      "plugin_id": "10035",
+      "name": "Strict-Transport-Security Header Not Set",
+      "category": "A05:2021-Security Misconfiguration",
+      "status": "PASS",
+      "evidence": "max-age=31536000; includeSubDomains; preload",
+      "mitigation": "HSTS configurado com max-age=31536000 e includeSubDomains no middleware."
+    },
+    {
+      "plugin_id": "10020",
+      "name": "Anti-Clickjacking X-Frame-Options Header Missing",
+      "category": "A05:2021-Security Misconfiguration",
+      "status": "PASS",
+      "evidence": "DENY",
+      "mitigation": "X-Frame-Options: DENY injetado em todas as rotas."
+    },
+    {
+      "plugin_id": "10021",
+      "name": "X-Content-Type-Options Header Missing",
+      "category": "A05:2021-Security Misconfiguration",
+      "status": "PASS",
+      "evidence": "nosniff",
+      "mitigation": "X-Content-Type-Options: nosniff aplicado globalmente."
+    },
+    {
+      "plugin_id": "10038",
+      "name": "Content Security Policy (CSP) Header Not Set",
+      "category": "A05:2021-Security Misconfiguration",
+      "status": "PASS",
+      "evidence": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; frame-ancestors 'none'; form-action 'self';",
+      "mitigation": "CSP configurado com default-src 'self' e frame-ancestors 'none'."
+    }
+  ],
+  "findings_summary": {
+    "High": 0,
+    "Medium": 0,
+    "Low": 1,
+    "Informational": 2
+  },
+  "residual_risks": [
+    {
+      "id": "RESIDUAL-01",
+      "titulo": "Timestamp Unix em Claims de JWT (iat / exp)",
+      "severidade": "Low",
+      "owasp_zap_id": "10096",
+      "descricao": "Os tokens JWT contêm timestamps Epoch/Unix legíveis para controle de expiração.",
+      "analise_risco": "Risco aceitável. Padrão nativo do RFC 7519 para validação de expiração e emissão.",
+      "parecer": "LIBERADO PARA DEPLOY"
+    },
+    {
+      "id": "RESIDUAL-02",
+      "titulo": "Exposição de Documentação OpenAPI /docs em Ambiente de Produção",
+      "severidade": "Informational",
+      "owasp_zap_id": "10027",
+      "descricao": "Rotas Swagger UI e Redoc visíveis publicamente.",
+      "analise_risco": "Risco controlado. Em produção de alta criticidade, recomenda-se desativar /docs configurando docs_url=None via variável de ambiente.",
+      "parecer": "LIBERADO COM RECOMENDAÇÃO DE HARDENING DE AMBIENTE"
+    }
+  ]
+}
