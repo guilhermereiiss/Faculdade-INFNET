@@ -1,0 +1,13 @@
+# Variáveis de ambiente com segredos
+.env
+.env.*
+!.env.example
+
+# Ambiente virtual Python
+.venv/
+venv/
+
+# Cache Python e artefatos locais
+__pycache__/
+*.py[cod]
+*.zip
